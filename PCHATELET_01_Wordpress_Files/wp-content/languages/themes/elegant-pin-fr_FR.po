@@ -1,0 +1,130 @@
+# Translation of Themes - Elegant Pin in French (France)
+# This file is distributed under the same license as the Themes - Elegant Pin package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2020-02-13 09:58:45+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: fr\n"
+"Project-Id-Version: Themes - Elegant Pin\n"
+
+#. Description of the theme
+msgid "Elegant Pin is a child theme of Elegant Pink free WordPress theme. This theme features a vibrant masonry layout which helps you display your content in a stylish way on every screen sizes and devices. You can create a fully responsive & mobile-friendly website excellent blog with this theme without writing a single line of code. This theme features a stunning and visually appealing layout on the front-end and easy to use content management system on the back-end. Also, the theme is optimized for speed to give the least load time to your website and provide an excellent user experience to your visitors. Furthermore, it is ultra-SEO optimized along with Schema.org markup ready to help your website rank higher in search engine results. Elegant Pin comes with extensive and easy to use documentation guide to help you create a professional blog from scratch. This theme can be the best choice to share your expert ideas on topics like fashion, beauty, makeup, fitness, lifestyle, recipes, travel, coaching, or parenting by creating a blog. The theme is translation ready, supports RTL and Cross Browser Compatible. Also, Elegant Pin is backed by world-class, one-on-one support, and a super active team of developers and designers ready to help! Check the demo at https://demo.rarathemes.com/elegant-pin/, documentation at https://docs.rarathemes.com/docs/elegant-pin/, and get support at https://rarathemes.com/support-ticket/."
+msgstr "Elegant Pin est un thème enfant du thème WordPress gratuit Elegant Pink. Ce thème dispose d’une mise en page en briques dynamique qui vous aide à afficher votre contenu d’une manière élégante sur toutes les tailles d’écran et les appareils. Vous pouvez créer un excellent site web de blog entièrement réactif avec ce thème sans écrire une seule ligne de code. Ce thème dispose d’une mise en page étonnante et visuellement attrayante sur l’interface publique et facile à utiliser comme système de gestion de contenu. En outre, le thème est optimisé pour la vitesse afin de donner le moins de temps de chargement pour votre site web et de fournir une excellente expérience utilisateur à vos visiteurs. En outre, il est ultra-optimisé pour le SEO avec un balisage Schema.org prêt à aider votre site w à avoir un classement plus élévé dans les résultats des moteurs de recherche. Elegant Pin est livré avec un guide de documentation complet et facile à utiliser pour vous aider à créer un blog professionnel à partir de zéro. Ce thème peut être le meilleur choix pour partager vos idées d’experts sur des sujets tels que la mode, la beauté, le maquillage, le fitness, le mode de vie, les recettes, les voyages, le coaching ou la parentalité en créant un blog. Le thème est prêt pour la traduction, prend en charge RTL et compatible avec les navigateurs. En outre, Elegant Pin est soutenu par une classe mondiale, du support en tête à tête, et une équipe super active de développeurs et de designers prêts à vous aider ! Démonstration sur https://demo.rarathemes.com/elegant-pin/, documentation sur https://docs.rarathemes.com/docs/elegant-pin/, et support sur https://rarathemes.com/support-ticket/."
+
+#. Theme Name of the theme
+msgid "Elegant Pin"
+msgstr "Elegant Pin"
+
+#: functions.php:237
+msgid "Enter Blossom Email Newsletter Shortcode"
+msgstr "Saisissez le code court de Blossom Email Newsletter"
+
+#: functions.php:236
+msgid "Blossom Email Newsletter"
+msgstr "Blossom Email Newsletter"
+
+#: functions.php:218
+msgid "Enable Blossom Email Newsletter"
+msgstr "Activer Blossom Email Newsletter"
+
+#: functions.php:200
+msgid "Newsletter Settings"
+msgstr "Réglages de newsletter"
+
+#: functions.php:191
+msgid "You must configure the BlossomThemes Feed for Instagram to display your Instagram posts on Homepage"
+msgstr "Vous devez configurer BlossomThemes Feed for Instagram pour afficher vos publications Instagram sur la page d’accueil"
+
+#: functions.php:190
+msgid "Enable Instagram Section"
+msgstr "Activer la section Instagram"
+
+#: functions.php:172
+msgid "Instagram Settings"
+msgstr "Réglages Instagram"
+
+#: functions.php:164
+msgid "Primary Color"
+msgstr "Couleur primaire"
+
+#: functions.php:96
+msgid "About Elegant Pin"
+msgstr "À propos d’Elegant Pin"
+
+#: functions.php:92
+msgid "More WordPress Themes"
+msgstr "Plus de thèmes WordPress"
+
+#: functions.php:91
+msgid "Rate this theme"
+msgstr "Noter ce thème"
+
+#: functions.php:90
+msgid "Support ticket"
+msgstr "Ticket de support"
+
+#: functions.php:89
+msgid "Theme info"
+msgstr "Infos du thème"
+
+#: functions.php:88
+msgid "View documentation"
+msgstr "Voir la documentation"
+
+#: functions.php:87 functions.php:88 functions.php:89 functions.php:90
+#: functions.php:91 functions.php:92
+msgid "here"
+msgstr "ici"
+
+#: functions.php:87
+msgid "View demo"
+msgstr "Voir la démonstration"
+
+#: functions.php:86
+msgid "Need help?"
+msgstr "Besoin d’aide ?"
+
+#: functions.php:76
+msgid "Information Links"
+msgstr "Liens d'information"
+
+#: functions.php:62
+msgid "https://wordpress.org/"
+msgstr "https://fr.wordpress.org/"
+
+#: functions.php:62
+msgid "Powered by: %s"
+msgstr "Propulsé par : %s"
+
+#: functions.php:59
+msgid "Developed By "
+msgstr "Développé par "
+
+#: functions.php:57
+msgid "Elegant Pin "
+msgstr "Elegant Pin "
+
+#: functions.php:52
+msgid "Y"
+msgstr "Y"
+
+#: functions.php:52
+msgid "Copyright &copy; "
+msgstr "Copyright &copy; "
+
+#. Author URI of the theme
+msgid "https://rarathemes.com/"
+msgstr "https://rarathemes.com/"
+
+#. Author of the theme
+#: functions.php:60
+msgid "Rara Theme"
+msgstr "Rara Theme"
+
+#. Theme URI of the theme
+msgid "https://rarathemes.com/wordpress-themes/elegant-pin/"
+msgstr "https://rarathemes.com/wordpress-themes/elegant-pin/"

@@ -1,0 +1,48 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: roseta-children\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-02-23 12:40+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.3.1; wp-5.3.2"
+
+#. Description of the theme
+msgid ""
+"A fast, clean and highly customizable theme. It's beautiful and multi-"
+"purpose - use it for your blog, online portfolio, business website or "
+"WooCommerce store. It's lightweight, mobile friendly and responsive, created "
+"with SEO in mind (taking full advantage of microformats and Schema.org "
+"microdata that search engines love). Some of the amazing features include:  "
+"Responsive / WooCommerce / RTL / Translation Ready / Google Fonts / "
+"Gutenberg support / Regular updates. Some of the many customizable aspects "
+"include: Layouts (Wide and Boxed) / Site widths / Header elements / Featured "
+"images / Colors / Post metas / Widgets areas / Landing page elements / "
+"Slider / Typography / Masonry bricks / Socials and much more. Still not "
+"convinced? Check out the theme demo: https://demos.cryoutcreations."
+"eu/wp/roseta"
+msgstr ""
+
+#. Author of the theme
+msgid "Cryout Creations (Jessy BROS de chez OC)"
+msgstr ""
+
+#. Author URI of the theme
+msgid "http://www.cryoutcreations.eu"
+msgstr ""
+
+#. URI of the theme
+msgid "http://www.cryoutcreations.eu/wordpress-themes/roseta"
+msgstr ""
+
+#. Name of the theme
+msgid "roseta-children"
+msgstr ""

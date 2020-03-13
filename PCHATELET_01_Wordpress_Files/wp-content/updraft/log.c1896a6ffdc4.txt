@@ -1,0 +1,421 @@
+0000.000 (0) Opened log file at time: Fri, 28 Feb 2020 12:59:15 +0000 on https://p2-bros-jessy.yj.fr
+0000.003 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.22 WP: 5.3.2 PHP: 7.2.26 (litespeed, Linux world-320.fr.planethoster.net 3.10.0-962.3.2.lve1.5.25.10.el7.x86_64 #1 SMP Wed May 29 04:37:40 EDT 2019 x86_64) MySQL: 10.2.30-MariaDB WPLANG: fr_FR Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 13.3M | 14M) multisite: N openssl: OpenSSL 1.0.2t  10 Sep 2019 mcrypt: N LANG:  ZipArchive::addFile: Y
+0001.293 (0) Free space on disk containing Updraft's temporary directory: 254117.4 MB
+0001.297 (0) Tasks: Backup files:  (schedule: monthly) Backup DB: 1 (schedule: weekly)
+0001.298 (0) Processed schedules. Tasks now: Backup files:  Backup DB: 1
+0001.301 (0) Semaphore (d, Jessyoptions) being initialised
+0001.306 (0) Requesting semaphore lock (d) (apparently not via scheduler)
+0001.309 (0) Set semaphore last lock (d) time to 2020-02-28 12:59:16
+0001.383 (0) Semaphore lock (d) complete
+0001.393 (0) Backup run: resumption=0, nonce=c1896a6ffdc4, file_nonce=c1896a6ffdc4 begun at=1582894755 (1s ago), job type=backup
+0001.394 (0) Scheduling a resumption (1) after 301 seconds (1582895057) in case this run gets aborted
+0001.397 (0) This backup run is not intended for files - skipping
+0001.397 (0) Beginning creation of database dump (WordPress DB)
+0001.400 (0) Testing potential mysqldump binary: /usr/bin/mysqldump
+0003.483 (0) Output: /*!40103 SET @OLD_TIME_ZONE=@@TIME_ZONE */;\n/*!40103 SET TIME_ZONE='+00:00' */;\n/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;\n/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;\n/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;\n/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;\nDROP TABLE IF EXISTS `Jessyoptions`;\n/*!40101 SET @saved_cs_client     = @@character_set_client */;\n/*!40101 SET character_set_client = utf8 */;\nC (truncated - 1237 bytes total)
+0003.487 (0) Working binary mysqldump found: /usr/bin/mysqldump
+0003.510 (0) Table Jessyoptions: Total expected rows (approximate): 492
+0003.629 (0) Table Jessyoptions: Total rows added: 487 in 0.11 seconds
+0003.635 (0) Table Jessyoptions: finishing file (backup_2020-02-28-1259_chalet_et_caviar_c1896a6ffdc4-db-table-Jessyoptions.table.gz - 160.9 KB)
+0003.642 (0) Table Jessyusers: Total expected rows (approximate): 4
+0003.645 (0) Table Jessyusers: Total rows added: 4 in 0.00 seconds
+0003.646 (0) Table Jessyusers: finishing file (backup_2020-02-28-1259_chalet_et_caviar_c1896a6ffdc4-db-table-Jessyusers.table.gz - 0.8 KB)
+0003.649 (0) Table Jessyusermeta: Total expected rows (approximate): 79
+0003.652 (0) Table Jessyusermeta: Total rows added: 79 in 0.00 seconds
+0003.653 (0) Table Jessyusermeta: finishing file (backup_2020-02-28-1259_chalet_et_caviar_c1896a6ffdc4-db-table-Jessyusermeta.table.gz - 1.7 KB)
+0003.686 (0) Table Jessycommentmeta: Total expected rows (approximate): 0
+0003.689 (0) Table Jessycommentmeta: Total rows added: 0 in 0.00 seconds
+0003.691 (0) Table Jessycommentmeta: finishing file (backup_2020-02-28-1259_chalet_et_caviar_c1896a6ffdc4-db-table-Jessycommentmeta.table.gz - 0.4 KB)
+0003.694 (0) Table Jessycomments: Total expected rows (approximate): 1
+0003.698 (0) Table Jessycomments: Total rows added: 1 in 0.00 seconds
+0003.699 (0) Table Jessycomments: finishing file (backup_2020-02-28-1259_chalet_et_caviar_c1896a6ffdc4-db-table-Jessycomments.table.gz - 0.7 KB)
+0003.706 (0) Table Jessylinks: Total expected rows (approximate): 0
+0003.709 (0) Table Jessylinks: Total rows added: 0 in 0.00 seconds
+0003.711 (0) Table Jessylinks: finishing file (backup_2020-02-28-1259_chalet_et_caviar_c1896a6ffdc4-db-table-Jessylinks.table.gz - 0.4 KB)
+0003.714 (0) Table Jessypostmeta: Total expected rows (approximate): 801
+0003.736 (0) Table Jessypostmeta: Total rows added: 801 in 0.02 seconds
+0003.738 (0) Table Jessypostmeta: finishing file (backup_2020-02-28-1259_chalet_et_caviar_c1896a6ffdc4-db-table-Jessypostmeta.table.gz - 20.1 KB)
+0003.742 (0) Table Jessyposts: Total expected rows (approximate): 455
+0003.787 (0) Table Jessyposts: Total rows added: 455 in 0.04 seconds
+0003.788 (0) Table Jessyposts: finishing file (backup_2020-02-28-1259_chalet_et_caviar_c1896a6ffdc4-db-table-Jessyposts.table.gz - 46.5 KB)
+0003.792 (0) Table Jessyterm_relationships: Total expected rows (approximate): 18
+0003.803 (0) Table Jessyterm_relationships: Total rows added: 18 in 0.01 seconds
+0003.805 (0) Table Jessyterm_relationships: finishing file (backup_2020-02-28-1259_chalet_et_caviar_c1896a6ffdc4-db-table-Jessyterm_relationships.table.gz - 0.4 KB)
+0003.809 (0) Table Jessyterm_taxonomy: Total expected rows (approximate): 7
+0003.812 (0) Table Jessyterm_taxonomy: Total rows added: 7 in 0.00 seconds
+0003.813 (0) Table Jessyterm_taxonomy: finishing file (backup_2020-02-28-1259_chalet_et_caviar_c1896a6ffdc4-db-table-Jessyterm_taxonomy.table.gz - 0.6 KB)
+0003.817 (0) Table Jessytermmeta: Total expected rows (approximate): 0
+0003.837 (0) Table Jessytermmeta: Total rows added: 0 in 0.02 seconds
+0003.838 (0) Table Jessytermmeta: finishing file (backup_2020-02-28-1259_chalet_et_caviar_c1896a6ffdc4-db-table-Jessytermmeta.table.gz - 0.4 KB)
+0003.841 (0) Table Jessyterms: Total expected rows (approximate): 7
+0003.847 (0) Table Jessyterms: Total rows added: 7 in 0.00 seconds
+0003.848 (0) Table Jessyterms: finishing file (backup_2020-02-28-1259_chalet_et_caviar_c1896a6ffdc4-db-table-Jessyterms.table.gz - 0.5 KB)
+0003.855 (0) Table Jessyblc_filters: Total expected rows (approximate): 0
+0003.858 (0) Table Jessyblc_filters: Total rows added: 0 in 0.00 seconds
+0003.859 (0) Table Jessyblc_filters: finishing file (backup_2020-02-28-1259_chalet_et_caviar_c1896a6ffdc4-db-table-Jessyblc_filters.table.gz - 0.3 KB)
+0003.862 (0) Table Jessyblc_instances: Total expected rows (approximate): 10
+0003.865 (0) Table Jessyblc_instances: Total rows added: 10 in 0.00 seconds
+0003.866 (0) Table Jessyblc_instances: finishing file (backup_2020-02-28-1259_chalet_et_caviar_c1896a6ffdc4-db-table-Jessyblc_instances.table.gz - 0.6 KB)
+0003.868 (0) Table Jessyblc_links: Total expected rows (approximate): 10
+0003.871 (0) Table Jessyblc_links: Total rows added: 10 in 0.00 seconds
+0003.871 (0) Table Jessyblc_links: finishing file (backup_2020-02-28-1259_chalet_et_caviar_c1896a6ffdc4-db-table-Jessyblc_links.table.gz - 1.6 KB)
+0003.879 (0) Table Jessyblc_synch: Total expected rows (approximate): 13
+0003.884 (0) Table Jessyblc_synch: Total rows added: 13 in 0.00 seconds
+0003.886 (0) Table Jessyblc_synch: finishing file (backup_2020-02-28-1259_chalet_et_caviar_c1896a6ffdc4-db-table-Jessyblc_synch.table.gz - 0.5 KB)
+0003.894 (0) Table Jessyredirection_404: Total expected rows (approximate): 0
+0003.897 (0) Table Jessyredirection_404: Total rows added: 0 in 0.00 seconds
+0003.897 (0) Table Jessyredirection_404: finishing file (backup_2020-02-28-1259_chalet_et_caviar_c1896a6ffdc4-db-table-Jessyredirection_404.table.gz - 0.4 KB)
+0003.904 (0) Table Jessyredirection_groups: Total expected rows (approximate): 2
+0003.907 (0) Table Jessyredirection_groups: Total rows added: 2 in 0.00 seconds
+0003.908 (0) Table Jessyredirection_groups: finishing file (backup_2020-02-28-1259_chalet_et_caviar_c1896a6ffdc4-db-table-Jessyredirection_groups.table.gz - 0.5 KB)
+0003.910 (0) Table Jessyredirection_items: Total expected rows (approximate): 1
+0003.912 (0) Table Jessyredirection_items: Total rows added: 1 in 0.00 seconds
+0003.913 (0) Table Jessyredirection_items: finishing file (backup_2020-02-28-1259_chalet_et_caviar_c1896a6ffdc4-db-table-Jessyredirection_items.table.gz - 0.7 KB)
+0003.920 (0) Table Jessyredirection_logs: Total expected rows (approximate): 0
+0003.922 (0) Table Jessyredirection_logs: Total rows added: 0 in 0.00 seconds
+0003.923 (0) Table Jessyredirection_logs: finishing file (backup_2020-02-28-1259_chalet_et_caviar_c1896a6ffdc4-db-table-Jessyredirection_logs.table.gz - 0.4 KB)
+0003.939 (0) Table Jessywfblockediplog: Total expected rows (approximate): 87
+0003.944 (0) Table Jessywfblockediplog: Total rows added: 87 in 0.00 seconds
+0003.945 (0) Table Jessywfblockediplog: finishing file (backup_2020-02-28-1259_chalet_et_caviar_c1896a6ffdc4-db-table-Jessywfblockediplog.table.gz - 1.1 KB)
+0003.949 (0) Table Jessywfblocks7: Total expected rows (approximate): 0
+0003.952 (0) Table Jessywfblocks7: Total rows added: 0 in 0.00 seconds
+0003.952 (0) Table Jessywfblocks7: finishing file (backup_2020-02-28-1259_chalet_et_caviar_c1896a6ffdc4-db-table-Jessywfblocks7.table.gz - 0.4 KB)
+0003.956 (0) Table Jessywfconfig: Total expected rows (approximate): 250
+0004.005 (0) Table Jessywfconfig: Total rows added: 250 in 0.05 seconds
+0004.008 (0) Table Jessywfconfig: finishing file (backup_2020-02-28-1259_chalet_et_caviar_c1896a6ffdc4-db-table-Jessywfconfig.table.gz - 370.5 KB)
+0004.012 (0) Table Jessywfcrawlers: Total expected rows (approximate): 14
+0004.016 (0) Table Jessywfcrawlers: Total rows added: 14 in 0.00 seconds
+0004.017 (0) Table Jessywfcrawlers: finishing file (backup_2020-02-28-1259_chalet_et_caviar_c1896a6ffdc4-db-table-Jessywfcrawlers.table.gz - 0.6 KB)
+0004.028 (0) Table Jessywffilechanges: Total expected rows (approximate): 0
+0004.032 (0) Table Jessywffilechanges: Total rows added: 0 in 0.00 seconds
+0004.034 (0) Table Jessywffilechanges: finishing file (backup_2020-02-28-1259_chalet_et_caviar_c1896a6ffdc4-db-table-Jessywffilechanges.table.gz - 0.3 KB)
+0004.048 (0) Table Jessywffilemods: Total expected rows (approximate): 4284
+0004.311 (0) Table Jessywffilemods: Total rows added: 4284 in 0.26 seconds
+0004.314 (0) Table Jessywffilemods: finishing file (backup_2020-02-28-1259_chalet_et_caviar_c1896a6ffdc4-db-table-Jessywffilemods.table.gz - 334.8 KB)
+0004.318 (0) Table Jessywfhits: Total expected rows (approximate): 189
+0004.339 (0) Table Jessywfhits: Total rows added: 189 in 0.02 seconds
+0004.340 (0) Table Jessywfhits: finishing file (backup_2020-02-28-1259_chalet_et_caviar_c1896a6ffdc4-db-table-Jessywfhits.table.gz - 9.3 KB)
+0004.358 (0) Table Jessywfhoover: Total expected rows (approximate): 0
+0004.361 (0) Table Jessywfhoover: Total rows added: 0 in 0.00 seconds
+0004.362 (0) Table Jessywfhoover: finishing file (backup_2020-02-28-1259_chalet_et_caviar_c1896a6ffdc4-db-table-Jessywfhoover.table.gz - 0.3 KB)
+0004.369 (0) Table Jessywfissues: Total expected rows (approximate): 0
+0004.371 (0) Table Jessywfissues: Total rows added: 0 in 0.00 seconds
+0004.372 (0) Table Jessywfissues: finishing file (backup_2020-02-28-1259_chalet_et_caviar_c1896a6ffdc4-db-table-Jessywfissues.table.gz - 0.4 KB)
+0004.379 (0) Table Jessywfknownfilelist: Total expected rows (approximate): 4284
+0004.455 (0) Table Jessywfknownfilelist: Total rows added: 4284 in 0.07 seconds
+0004.457 (0) Table Jessywfknownfilelist: finishing file (backup_2020-02-28-1259_chalet_et_caviar_c1896a6ffdc4-db-table-Jessywfknownfilelist.table.gz - 41 KB)
+0004.467 (0) Table Jessywflivetraffichuman: Total expected rows (approximate): 0
+0004.470 (0) Table Jessywflivetraffichuman: Total rows added: 0 in 0.00 seconds
+0004.472 (0) Table Jessywflivetraffichuman: finishing file (backup_2020-02-28-1259_chalet_et_caviar_c1896a6ffdc4-db-table-Jessywflivetraffichuman.table.gz - 0.3 KB)
+0004.475 (0) Table Jessywflocs: Total expected rows (approximate): 1
+0004.482 (0) Table Jessywflocs: Total rows added: 1 in 0.01 seconds
+0004.484 (0) Table Jessywflocs: finishing file (backup_2020-02-28-1259_chalet_et_caviar_c1896a6ffdc4-db-table-Jessywflocs.table.gz - 0.5 KB)
+0004.488 (0) Table Jessywflogins: Total expected rows (approximate): 88
+0004.507 (0) Table Jessywflogins: Total rows added: 88 in 0.02 seconds
+0004.509 (0) Table Jessywflogins: finishing file (backup_2020-02-28-1259_chalet_et_caviar_c1896a6ffdc4-db-table-Jessywflogins.table.gz - 2.5 KB)
+0004.515 (0) Table Jessywfls_2fa_secrets: Total expected rows (approximate): 0
+0004.522 (0) Table Jessywfls_2fa_secrets: Total rows added: 0 in 0.00 seconds
+0004.523 (0) Table Jessywfls_2fa_secrets: finishing file (backup_2020-02-28-1259_chalet_et_caviar_c1896a6ffdc4-db-table-Jessywfls_2fa_secrets.table.gz - 0.4 KB)
+0004.527 (0) Table Jessywfls_settings: Total expected rows (approximate): 17
+0004.531 (0) Table Jessywfls_settings: Total rows added: 19 in 0.00 seconds
+0004.532 (0) Table Jessywfls_settings: finishing file (backup_2020-02-28-1259_chalet_et_caviar_c1896a6ffdc4-db-table-Jessywfls_settings.table.gz - 0.7 KB)
+0004.536 (0) Table Jessywfnotifications: Total expected rows (approximate): 0
+0004.553 (0) Table Jessywfnotifications: Total rows added: 0 in 0.00 seconds
+0004.554 (0) Table Jessywfnotifications: finishing file (backup_2020-02-28-1259_chalet_et_caviar_c1896a6ffdc4-db-table-Jessywfnotifications.table.gz - 0.3 KB)
+0004.571 (0) Table Jessywfpendingissues: Total expected rows (approximate): 0
+0004.575 (0) Table Jessywfpendingissues: Total rows added: 0 in 0.00 seconds
+0004.576 (0) Table Jessywfpendingissues: finishing file (backup_2020-02-28-1259_chalet_et_caviar_c1896a6ffdc4-db-table-Jessywfpendingissues.table.gz - 0.4 KB)
+0004.585 (0) Table Jessywfreversecache: Total expected rows (approximate): 5
+0004.590 (0) Table Jessywfreversecache: Total rows added: 5 in 0.00 seconds
+0004.592 (0) Table Jessywfreversecache: finishing file (backup_2020-02-28-1259_chalet_et_caviar_c1896a6ffdc4-db-table-Jessywfreversecache.table.gz - 0.5 KB)
+0004.599 (0) Table Jessywfsnipcache: Total expected rows (approximate): 0
+0004.612 (0) Table Jessywfsnipcache: Total rows added: 0 in 0.01 seconds
+0004.613 (0) Table Jessywfsnipcache: finishing file (backup_2020-02-28-1259_chalet_et_caviar_c1896a6ffdc4-db-table-Jessywfsnipcache.table.gz - 0.4 KB)
+0004.630 (0) Table Jessywfstatus: Total expected rows (approximate): 445
+0004.643 (0) Table Jessywfstatus: Total rows added: 445 in 0.01 seconds
+0004.644 (0) Table Jessywfstatus: finishing file (backup_2020-02-28-1259_chalet_et_caviar_c1896a6ffdc4-db-table-Jessywfstatus.table.gz - 7.2 KB)
+0004.647 (0) Table Jessywftrafficrates: Total expected rows (approximate): 0
+0004.651 (0) Table Jessywftrafficrates: Total rows added: 0 in 0.00 seconds
+0004.652 (0) Table Jessywftrafficrates: finishing file (backup_2020-02-28-1259_chalet_et_caviar_c1896a6ffdc4-db-table-Jessywftrafficrates.table.gz - 0.3 KB)
+0004.663 (0) Table Jessyyoast_seo_links: Total expected rows (approximate): 8
+0004.673 (0) Table Jessyyoast_seo_links: Total rows added: 8 in 0.01 seconds
+0004.674 (0) Table Jessyyoast_seo_links: finishing file (backup_2020-02-28-1259_chalet_et_caviar_c1896a6ffdc4-db-table-Jessyyoast_seo_links.table.gz - 0.6 KB)
+0004.696 (0) Table Jessyyoast_seo_meta: Total expected rows (approximate): 13
+0004.704 (0) Table Jessyyoast_seo_meta: Total rows added: 13 in 0.01 seconds
+0004.707 (0) Table Jessyyoast_seo_meta: finishing file (backup_2020-02-28-1259_chalet_et_caviar_c1896a6ffdc4-db-table-Jessyyoast_seo_meta.table.gz - 0.4 KB)
+0004.715 (0) backup_2020-02-28-1259_chalet_et_caviar_c1896a6ffdc4-db-table-Jessyoptions.table.gz (1/43): adding to final database dump
+0006.693 (0) backup_2020-02-28-1259_chalet_et_caviar_c1896a6ffdc4-db-table-Jessyusers.table.gz (2/43): adding to final database dump
+0006.797 (0) backup_2020-02-28-1259_chalet_et_caviar_c1896a6ffdc4-db-table-Jessyusermeta.table.gz (3/43): adding to final database dump
+0006.798 (0) backup_2020-02-28-1259_chalet_et_caviar_c1896a6ffdc4-db-table-Jessycommentmeta.table.gz (4/43): adding to final database dump
+0006.799 (0) backup_2020-02-28-1259_chalet_et_caviar_c1896a6ffdc4-db-table-Jessycomments.table.gz (5/43): adding to final database dump
+0006.800 (0) backup_2020-02-28-1259_chalet_et_caviar_c1896a6ffdc4-db-table-Jessylinks.table.gz (6/43): adding to final database dump
+0006.801 (0) backup_2020-02-28-1259_chalet_et_caviar_c1896a6ffdc4-db-table-Jessypostmeta.table.gz (7/43): adding to final database dump
+0006.882 (0) backup_2020-02-28-1259_chalet_et_caviar_c1896a6ffdc4-db-table-Jessyposts.table.gz (8/43): adding to final database dump
+0006.989 (0) backup_2020-02-28-1259_chalet_et_caviar_c1896a6ffdc4-db-table-Jessyterm_relationships.table.gz (9/43): adding to final database dump
+0007.000 (0) backup_2020-02-28-1259_chalet_et_caviar_c1896a6ffdc4-db-table-Jessyterm_taxonomy.table.gz (10/43): adding to final database dump
+0007.000 (0) backup_2020-02-28-1259_chalet_et_caviar_c1896a6ffdc4-db-table-Jessytermmeta.table.gz (11/43): adding to final database dump
+0007.001 (0) backup_2020-02-28-1259_chalet_et_caviar_c1896a6ffdc4-db-table-Jessyterms.table.gz (12/43): adding to final database dump
+0007.002 (0) backup_2020-02-28-1259_chalet_et_caviar_c1896a6ffdc4-db-table-Jessyblc_filters.table.gz (13/43): adding to final database dump
+0007.003 (0) backup_2020-02-28-1259_chalet_et_caviar_c1896a6ffdc4-db-table-Jessyblc_instances.table.gz (14/43): adding to final database dump
+0007.003 (0) backup_2020-02-28-1259_chalet_et_caviar_c1896a6ffdc4-db-table-Jessyblc_links.table.gz (15/43): adding to final database dump
+0007.004 (0) backup_2020-02-28-1259_chalet_et_caviar_c1896a6ffdc4-db-table-Jessyblc_synch.table.gz (16/43): adding to final database dump
+0007.005 (0) backup_2020-02-28-1259_chalet_et_caviar_c1896a6ffdc4-db-table-Jessyredirection_404.table.gz (17/43): adding to final database dump
+0007.005 (0) backup_2020-02-28-1259_chalet_et_caviar_c1896a6ffdc4-db-table-Jessyredirection_groups.table.gz (18/43): adding to final database dump
+0007.006 (0) backup_2020-02-28-1259_chalet_et_caviar_c1896a6ffdc4-db-table-Jessyredirection_items.table.gz (19/43): adding to final database dump
+0007.006 (0) backup_2020-02-28-1259_chalet_et_caviar_c1896a6ffdc4-db-table-Jessyredirection_logs.table.gz (20/43): adding to final database dump
+0007.007 (0) backup_2020-02-28-1259_chalet_et_caviar_c1896a6ffdc4-db-table-Jessywfblockediplog.table.gz (21/43): adding to final database dump
+0007.007 (0) backup_2020-02-28-1259_chalet_et_caviar_c1896a6ffdc4-db-table-Jessywfblocks7.table.gz (22/43): adding to final database dump
+0007.008 (0) backup_2020-02-28-1259_chalet_et_caviar_c1896a6ffdc4-db-table-Jessywfconfig.table.gz (23/43): adding to final database dump
+0007.125 (0) backup_2020-02-28-1259_chalet_et_caviar_c1896a6ffdc4-db-table-Jessywfcrawlers.table.gz (24/43): adding to final database dump
+0007.126 (0) backup_2020-02-28-1259_chalet_et_caviar_c1896a6ffdc4-db-table-Jessywffilechanges.table.gz (25/43): adding to final database dump
+0007.127 (0) backup_2020-02-28-1259_chalet_et_caviar_c1896a6ffdc4-db-table-Jessywffilemods.table.gz (26/43): adding to final database dump
+0008.179 (0) backup_2020-02-28-1259_chalet_et_caviar_c1896a6ffdc4-db-table-Jessywfhits.table.gz (27/43): adding to final database dump
+0008.182 (0) backup_2020-02-28-1259_chalet_et_caviar_c1896a6ffdc4-db-table-Jessywfhoover.table.gz (28/43): adding to final database dump
+0008.183 (0) backup_2020-02-28-1259_chalet_et_caviar_c1896a6ffdc4-db-table-Jessywfissues.table.gz (29/43): adding to final database dump
+0008.184 (0) backup_2020-02-28-1259_chalet_et_caviar_c1896a6ffdc4-db-table-Jessywfknownfilelist.table.gz (30/43): adding to final database dump
+0008.196 (0) backup_2020-02-28-1259_chalet_et_caviar_c1896a6ffdc4-db-table-Jessywflivetraffichuman.table.gz (31/43): adding to final database dump
+0008.197 (0) backup_2020-02-28-1259_chalet_et_caviar_c1896a6ffdc4-db-table-Jessywflocs.table.gz (32/43): adding to final database dump
+0008.198 (0) backup_2020-02-28-1259_chalet_et_caviar_c1896a6ffdc4-db-table-Jessywflogins.table.gz (33/43): adding to final database dump
+0008.199 (0) backup_2020-02-28-1259_chalet_et_caviar_c1896a6ffdc4-db-table-Jessywfls_2fa_secrets.table.gz (34/43): adding to final database dump
+0008.200 (0) backup_2020-02-28-1259_chalet_et_caviar_c1896a6ffdc4-db-table-Jessywfls_settings.table.gz (35/43): adding to final database dump
+0008.200 (0) backup_2020-02-28-1259_chalet_et_caviar_c1896a6ffdc4-db-table-Jessywfnotifications.table.gz (36/43): adding to final database dump
+0008.201 (0) backup_2020-02-28-1259_chalet_et_caviar_c1896a6ffdc4-db-table-Jessywfpendingissues.table.gz (37/43): adding to final database dump
+0008.201 (0) backup_2020-02-28-1259_chalet_et_caviar_c1896a6ffdc4-db-table-Jessywfreversecache.table.gz (38/43): adding to final database dump
+0008.202 (0) backup_2020-02-28-1259_chalet_et_caviar_c1896a6ffdc4-db-table-Jessywfsnipcache.table.gz (39/43): adding to final database dump
+0008.202 (0) backup_2020-02-28-1259_chalet_et_caviar_c1896a6ffdc4-db-table-Jessywfstatus.table.gz (40/43): adding to final database dump
+0008.205 (0) backup_2020-02-28-1259_chalet_et_caviar_c1896a6ffdc4-db-table-Jessywftrafficrates.table.gz (41/43): adding to final database dump
+0008.206 (0) backup_2020-02-28-1259_chalet_et_caviar_c1896a6ffdc4-db-table-Jessyyoast_seo_links.table.gz (42/43): adding to final database dump
+0008.280 (0) backup_2020-02-28-1259_chalet_et_caviar_c1896a6ffdc4-db-table-Jessyyoast_seo_meta.table.gz (43/43): adding to final database dump
+0008.283 (0) backup_2020-02-28-1259_chalet_et_caviar_c1896a6ffdc4-db.gz: finished writing out complete database file (984 KB)
+0008.308 (0) Total database tables backed up: 43 (backup_2020-02-28-1259_chalet_et_caviar_c1896a6ffdc4-db.gz, size: 1027572, sha1: 5caa96e74ce25652482c596fd576c94c3d230397, sha256: 63256a084331ff58f22ef55adc5ab0108a65482659a5a2192ae85fe5aa5c7494)
+0008.313 (0) backup_2020-02-28-1259_chalet_et_caviar_c1896a6ffdc4-db.gz: db: This file has not yet been successfully uploaded: will queue
+0008.313 (0) Saving backup history. Total backup size: 1003.5 KB
+0008.315 (0) Requesting upload of the files that have not yet been successfully uploaded (1)
+0008.317 (0) Cloud backup selection (1/1): dropbox with instance (1/1) (last)
+0008.318 (0) Beginning dispatch of backup to remote (dropbox) (instance identifier s-50f9d22d7e7e2b2410bd400266b51696)
+0008.318 (0) Dropbox: You do not appear to be authenticated with Dropbox (1)
+0008.319 (0) An error condition has occurred for the first time during this job
+0008.320 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0008.321 (0) Number of backup sets in history: 1; groups (db): 1
+0008.378 (0) Examining (for databases) backup set with group_id=0, nonce=c1896a6ffdc4, datestamp=1582894755 (Feb 28 2020 12:59:15)
+0008.379 (0) This backup set is the backup set just made, so will not be deleted.
+0008.379 (0) Number of backup sets in history: 1; groups (files): 1
+0008.379 (0) Examining (for files) backup set with nonce=c1896a6ffdc4, datestamp=1582894755 (Feb 28 2020 12:59:15)
+0008.379 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0008.380 (0) Retain: saving new backup history (sets now: 1) and finishing retain operation
+0008.382 (0) Resume backup (c1896a6ffdc4, 0): finish run
+0008.393 (0) Decremented the semaphore (d) by 1
+0008.394 (0) Semaphore (d) unlocked
+0008.395 (0) There were errors in the uploads, so the 'resume' event is remaining scheduled
+0008.398 (0) Rescheduling resumption 1: moving to 100 seconds from now (1582894863)
+0008.400 (0) No email will/can be sent - the user has not configured an email address.
+0008.401 (0) La sauvegarde ne s'est pas terminée; une relance de la procédure est prévue
+0117.158 (1) Opened log file at time: Fri, 28 Feb 2020 13:01:12 +0000 on https://p2-bros-jessy.yj.fr
+0117.163 (1) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.22 WP: 5.3.2 PHP: 7.2.26 (litespeed, Linux world-320.fr.planethoster.net 3.10.0-962.3.2.lve1.5.25.10.el7.x86_64 #1 SMP Wed May 29 04:37:40 EDT 2019 x86_64) MySQL: 10.2.30-MariaDB WPLANG: fr_FR Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 13.5M | 16M) multisite: N openssl: OpenSSL 1.0.2t  10 Sep 2019 mcrypt: N LANG:  ZipArchive::addFile: Y
+0117.350 (1) Free space on disk containing Updraft's temporary directory: 254132.2 MB
+0117.379 (1) Backup run: resumption=1, nonce=c1896a6ffdc4, file_nonce=c1896a6ffdc4 begun at=1582894755 (117s ago), job type=backup, previous check-in=4.7s
+0117.381 (1) Scheduling a resumption (2) after 301 seconds (1582895173) in case this run gets aborted
+0117.385 (1) This backup run is not intended for files - skipping
+0117.388 (1) Database dump (WordPress DB): Creation was completed already
+0117.395 (1) backup_2020-02-28-1259_chalet_et_caviar_c1896a6ffdc4-db.gz: db: This file has not yet been successfully uploaded: will queue
+0117.396 (1) Saving backup history. Total backup size: 1003.5 KB
+0117.399 (1) Requesting upload of the files that have not yet been successfully uploaded (1)
+0117.401 (1) Cloud backup selection (1/1): dropbox with instance (1/1) (last)
+0117.402 (1) Beginning dispatch of backup to remote (dropbox) (instance identifier s-50f9d22d7e7e2b2410bd400266b51696)
+0117.403 (1) Dropbox: You do not appear to be authenticated with Dropbox (1)
+0117.403 (1) An error condition has occurred for the first time during this job
+0117.405 (1) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0117.406 (1) Number of backup sets in history: 1; groups (db): 1
+0117.409 (1) Examining (for databases) backup set with group_id=0, nonce=c1896a6ffdc4, datestamp=1582894755 (Feb 28 2020 12:59:15)
+0117.410 (1) This backup set is the backup set just made, so will not be deleted.
+0117.410 (1) Number of backup sets in history: 1; groups (files): 1
+0117.411 (1) Examining (for files) backup set with nonce=c1896a6ffdc4, datestamp=1582894755 (Feb 28 2020 12:59:15)
+0117.411 (1) This backup set remains non-empty (f=0/d=1); will retain in history
+0117.411 (1) Retain: saving new backup history (sets now: 1) and finishing retain operation
+0117.415 (1) Resume backup (c1896a6ffdc4, 1): finish run
+0117.416 (1) There were errors in the uploads, so the 'resume' event is remaining scheduled
+0117.417 (1) No email will/can be sent - the user has not configured an email address.
+0117.418 (1) La sauvegarde ne s'est pas terminée; une relance de la procédure est prévue
+0485.870 (2) Opened log file at time: Fri, 28 Feb 2020 13:07:21 +0000 on https://p2-bros-jessy.yj.fr
+0485.873 (2) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.22 WP: 5.3.2 PHP: 7.2.26 (litespeed, Linux world-320.fr.planethoster.net 3.10.0-962.3.2.lve1.5.25.10.el7.x86_64 #1 SMP Wed May 29 04:37:40 EDT 2019 x86_64) MySQL: 10.2.30-MariaDB WPLANG: fr_FR Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 13.5M | 16M) multisite: N openssl: OpenSSL 1.0.2t  10 Sep 2019 mcrypt: N LANG:  ZipArchive::addFile: Y
+0486.208 (2) Free space on disk containing Updraft's temporary directory: 254005.1 MB
+0486.211 (2) Backup run: resumption=2, nonce=c1896a6ffdc4, file_nonce=c1896a6ffdc4 begun at=1582894755 (486s ago), job type=backup
+0486.213 (2) Scheduling a resumption (3) after 301 seconds (1582895542) in case this run gets aborted
+0486.215 (2) This backup run is not intended for files - skipping
+0486.216 (2) Database dump (WordPress DB): Creation was completed already
+0486.222 (2) backup_2020-02-28-1259_chalet_et_caviar_c1896a6ffdc4-db.gz: db: This file has not yet been successfully uploaded: will queue
+0486.222 (2) Saving backup history. Total backup size: 1003.5 KB
+0486.224 (2) Requesting upload of the files that have not yet been successfully uploaded (1)
+0486.226 (2) Cloud backup selection (1/1): dropbox with instance (1/1) (last)
+0486.227 (2) Beginning dispatch of backup to remote (dropbox) (instance identifier s-50f9d22d7e7e2b2410bd400266b51696)
+0486.228 (2) Dropbox: You do not appear to be authenticated with Dropbox (1)
+0486.228 (2) An error condition has occurred for the first time during this job
+0486.242 (2) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0486.251 (2) Number of backup sets in history: 1; groups (db): 1
+0486.252 (2) Examining (for databases) backup set with group_id=0, nonce=c1896a6ffdc4, datestamp=1582894755 (Feb 28 2020 12:59:15)
+0486.253 (2) This backup set is the backup set just made, so will not be deleted.
+0486.253 (2) Number of backup sets in history: 1; groups (files): 1
+0486.255 (2) Examining (for files) backup set with nonce=c1896a6ffdc4, datestamp=1582894755 (Feb 28 2020 12:59:15)
+0486.255 (2) This backup set remains non-empty (f=0/d=1); will retain in history
+0486.256 (2) Retain: saving new backup history (sets now: 1) and finishing retain operation
+0486.258 (2) Resume backup (c1896a6ffdc4, 2): finish run
+0486.259 (2) There were errors in the uploads, so the 'resume' event is remaining scheduled
+0486.260 (2) No email will/can be sent - the user has not configured an email address.
+0486.261 (2) La sauvegarde ne s'est pas terminée; une relance de la procédure est prévue
+0795.717 (3) Opened log file at time: Fri, 28 Feb 2020 13:12:31 +0000 on https://p2-bros-jessy.yj.fr
+0795.799 (3) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.22 WP: 5.3.2 PHP: 7.2.26 (litespeed, Linux world-320.fr.planethoster.net 3.10.0-962.3.2.lve1.5.25.10.el7.x86_64 #1 SMP Wed May 29 04:37:40 EDT 2019 x86_64) MySQL: 10.2.30-MariaDB WPLANG: fr_FR Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 13.5M | 16M) multisite: N openssl: OpenSSL 1.0.2t  10 Sep 2019 mcrypt: N LANG:  ZipArchive::addFile: Y
+0796.289 (3) Free space on disk containing Updraft's temporary directory: 254059.5 MB
+0796.301 (3) Backup run: resumption=3, nonce=c1896a6ffdc4, file_nonce=c1896a6ffdc4 begun at=1582894755 (796s ago), job type=backup
+0796.307 (3) Scheduling a resumption (4) after 301 seconds (1582895852) in case this run gets aborted
+0796.512 (3) This backup run is not intended for files - skipping
+0796.514 (3) Database dump (WordPress DB): Creation was completed already
+0796.564 (3) backup_2020-02-28-1259_chalet_et_caviar_c1896a6ffdc4-db.gz: db: This file has not yet been successfully uploaded: will queue
+0796.568 (3) Saving backup history. Total backup size: 1003.5 KB
+0796.595 (3) Requesting upload of the files that have not yet been successfully uploaded (1)
+0796.597 (3) Cloud backup selection (1/1): dropbox with instance (1/1) (last)
+0796.598 (3) Beginning dispatch of backup to remote (dropbox) (instance identifier s-50f9d22d7e7e2b2410bd400266b51696)
+0796.598 (3) Dropbox: You do not appear to be authenticated with Dropbox (1)
+0796.599 (3) An error condition has occurred for the first time during this job
+0796.601 (3) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0796.602 (3) Number of backup sets in history: 2; groups (db): 1
+0796.603 (3) Examining (for databases) backup set with group_id=0, nonce=c1896a6ffdc4, datestamp=1582894755 (Feb 28 2020 12:59:15)
+0796.603 (3) This backup set is the backup set just made, so will not be deleted.
+0796.603 (3) Examining (for databases) backup set with group_id=0, nonce=2d3d3e9f951b, datestamp=1582894461 (Feb 28 2020 12:54:21)
+0796.604 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+0796.604 (3) Number of backup sets in history: 2; groups (files): 1
+0796.605 (3) Examining (for files) backup set with nonce=c1896a6ffdc4, datestamp=1582894755 (Feb 28 2020 12:59:15)
+0796.605 (3) This backup set remains non-empty (f=0/d=1); will retain in history
+0796.606 (3) Examining (for files) backup set with nonce=2d3d3e9f951b, datestamp=1582894461 (Feb 28 2020 12:54:21)
+0796.606 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+0796.607 (3) Retain: saving new backup history (sets now: 2) and finishing retain operation
+0796.619 (3) Resume backup (c1896a6ffdc4, 3): finish run
+0796.621 (3) There were errors in the uploads, so the 'resume' event is remaining scheduled
+0796.623 (3) No email will/can be sent - the user has not configured an email address.
+0796.623 (3) La sauvegarde ne s'est pas terminée; une relance de la procédure est prévue
+2641.856 (4) Opened log file at time: Fri, 28 Feb 2020 13:43:17 +0000 on https://p2-bros-jessy.yj.fr
+2641.857 (4) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.22 WP: 5.3.2 PHP: 7.2.26 (litespeed, Linux world-320.fr.planethoster.net 3.10.0-962.3.2.lve1.5.25.10.el7.x86_64 #1 SMP Wed May 29 04:37:40 EDT 2019 x86_64) MySQL: 10.2.30-MariaDB WPLANG: fr_FR Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 13.7M | 16M) multisite: N openssl: OpenSSL 1.0.2t  10 Sep 2019 mcrypt: N LANG:  ZipArchive::addFile: Y
+2641.991 (4) Free space on disk containing Updraft's temporary directory: 254107.1 MB
+2641.993 (4) Backup run: resumption=4, nonce=c1896a6ffdc4, file_nonce=c1896a6ffdc4 begun at=1582894755 (2642s ago), job type=backup
+2641.994 (4) Long time past since expected resumption time: approx expected=1582895852.3, now=1582897397.4, diff=1545.1
+2641.996 (4) [Warning] Votre site est consulté rarement et UpdraftPlus ne peut récupérer les ressources qu'il recherche; veuillez prendre connaissance de cette page: https://updraftplus.com/faqs/why-am-i-getting-warnings-about-my-site-not-having-enough-visitors/
+2641.998 (4) Scheduling a resumption (5) after 301 seconds (1582897698) in case this run gets aborted
+2642.000 (4) This backup run is not intended for files - skipping
+2642.006 (4) Database dump (WordPress DB): Creation was completed already
+2642.011 (4) backup_2020-02-28-1259_chalet_et_caviar_c1896a6ffdc4-db.gz: db: This file has not yet been successfully uploaded: will queue
+2642.012 (4) Saving backup history. Total backup size: 1003.5 KB
+2642.015 (4) Requesting upload of the files that have not yet been successfully uploaded (1)
+2642.016 (4) Cloud backup selection (1/1): dropbox with instance (1/1) (last)
+2642.017 (4) Beginning dispatch of backup to remote (dropbox) (instance identifier s-50f9d22d7e7e2b2410bd400266b51696)
+2642.018 (4) Dropbox: You do not appear to be authenticated with Dropbox (1)
+2642.019 (4) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+2642.026 (4) Number of backup sets in history: 2; groups (db): 1
+2642.030 (4) Examining (for databases) backup set with group_id=0, nonce=c1896a6ffdc4, datestamp=1582894755 (Feb 28 2020 12:59:15)
+2642.030 (4) This backup set is the backup set just made, so will not be deleted.
+2642.030 (4) Examining (for databases) backup set with group_id=0, nonce=2d3d3e9f951b, datestamp=1582894461 (Feb 28 2020 12:54:21)
+2642.030 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+2642.032 (4) Number of backup sets in history: 2; groups (files): 1
+2642.034 (4) Examining (for files) backup set with nonce=c1896a6ffdc4, datestamp=1582894755 (Feb 28 2020 12:59:15)
+2642.034 (4) This backup set remains non-empty (f=0/d=1); will retain in history
+2642.040 (4) Examining (for files) backup set with nonce=2d3d3e9f951b, datestamp=1582894461 (Feb 28 2020 12:54:21)
+2642.040 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+2642.044 (4) Retain: saving new backup history (sets now: 2) and finishing retain operation
+2642.062 (4) Resume backup (c1896a6ffdc4, 4): finish run
+2642.089 (4) There were errors in the uploads, so the 'resume' event is remaining scheduled
+2642.090 (4) No email will/can be sent - the user has not configured an email address.
+2642.090 (4) La sauvegarde ne s'est pas terminée; une relance de la procédure est prévue
+4926.625 (5) Opened log file at time: Fri, 28 Feb 2020 14:21:22 +0000 on https://p2-bros-jessy.yj.fr
+4926.628 (5) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.22 WP: 5.3.2 PHP: 7.2.26 (litespeed, Linux world-320.fr.planethoster.net 3.10.0-962.3.2.lve1.5.25.10.el7.x86_64 #1 SMP Wed May 29 04:37:40 EDT 2019 x86_64) MySQL: 10.2.30-MariaDB WPLANG: fr_FR Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 13.5M | 16M) multisite: N openssl: OpenSSL 1.0.2t  10 Sep 2019 mcrypt: N LANG:  ZipArchive::addFile: Y
+4926.815 (5) Free space on disk containing Updraft's temporary directory: 254132.6 MB
+4926.818 (5) Backup run: resumption=5, nonce=c1896a6ffdc4, file_nonce=c1896a6ffdc4 begun at=1582894755 (4927s ago), job type=backup
+4926.819 (5) Long time past since expected resumption time: approx expected=1582897698.4, now=1582899682.2, diff=1983.8
+4926.819 (5) [Warning] Votre site est consulté rarement et UpdraftPlus ne peut récupérer les ressources qu'il recherche; veuillez prendre connaissance de cette page: https://updraftplus.com/faqs/why-am-i-getting-warnings-about-my-site-not-having-enough-visitors/
+4926.821 (5) Scheduling a resumption (6) after 301 seconds (1582899983) in case this run gets aborted
+4926.987 (5) This backup run is not intended for files - skipping
+4927.001 (5) Database dump (WordPress DB): Creation was completed already
+4927.041 (5) backup_2020-02-28-1259_chalet_et_caviar_c1896a6ffdc4-db.gz: db: This file has not yet been successfully uploaded: will queue
+4927.041 (5) Saving backup history. Total backup size: 1003.5 KB
+4927.043 (5) Requesting upload of the files that have not yet been successfully uploaded (1)
+4927.053 (5) Cloud backup selection (1/1): dropbox with instance (1/1) (last)
+4927.054 (5) Beginning dispatch of backup to remote (dropbox) (instance identifier s-50f9d22d7e7e2b2410bd400266b51696)
+4927.055 (5) Dropbox: You do not appear to be authenticated with Dropbox (1)
+4927.056 (5) An error condition has occurred for the first time during this job
+4927.059 (5) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+4927.062 (5) Number of backup sets in history: 2; groups (db): 1
+4927.063 (5) Examining (for databases) backup set with group_id=0, nonce=c1896a6ffdc4, datestamp=1582894755 (Feb 28 2020 12:59:15)
+4927.064 (5) This backup set is the backup set just made, so will not be deleted.
+4927.064 (5) Examining (for databases) backup set with group_id=0, nonce=2d3d3e9f951b, datestamp=1582894461 (Feb 28 2020 12:54:21)
+4927.064 (5) This backup set remains non-empty (f=1/d=1); will retain in history
+4927.066 (5) Number of backup sets in history: 2; groups (files): 1
+4927.067 (5) Examining (for files) backup set with nonce=c1896a6ffdc4, datestamp=1582894755 (Feb 28 2020 12:59:15)
+4927.067 (5) This backup set remains non-empty (f=0/d=1); will retain in history
+4927.067 (5) Examining (for files) backup set with nonce=2d3d3e9f951b, datestamp=1582894461 (Feb 28 2020 12:54:21)
+4927.067 (5) This backup set remains non-empty (f=1/d=1); will retain in history
+4927.068 (5) Retain: saving new backup history (sets now: 2) and finishing retain operation
+4927.070 (5) Resume backup (c1896a6ffdc4, 5): finish run
+4927.071 (5) There were errors in the uploads, so the 'resume' event is remaining scheduled
+4927.073 (5) No email will/can be sent - the user has not configured an email address.
+4927.078 (5) La sauvegarde ne s'est pas terminée; une relance de la procédure est prévue
+7137.020 (6) Opened log file at time: Fri, 28 Feb 2020 14:58:12 +0000 on http://p2-bros-jessy.yj.fr
+7137.022 (6) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.22 WP: 5.3.2 PHP: 7.2.26 (litespeed, Linux world-320.fr.planethoster.net 3.10.0-962.3.2.lve1.5.25.10.el7.x86_64 #1 SMP Wed May 29 04:37:40 EDT 2019 x86_64) MySQL: 10.2.30-MariaDB WPLANG: fr_FR Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 13.5M | 16M) multisite: N openssl: OpenSSL 1.0.2t  10 Sep 2019 mcrypt: N LANG:  ZipArchive::addFile: Y
+7137.191 (6) Free space on disk containing Updraft's temporary directory: 254037.4 MB
+7137.194 (6) Backup run: resumption=6, nonce=c1896a6ffdc4, file_nonce=c1896a6ffdc4 begun at=1582894755 (7137s ago), job type=backup
+7137.195 (6) Long time past since expected resumption time: approx expected=1582899983.2, now=1582901892.6, diff=1909.4
+7137.196 (6) [Warning] Votre site est consulté rarement et UpdraftPlus ne peut récupérer les ressources qu'il recherche; veuillez prendre connaissance de cette page: https://updraftplus.com/faqs/why-am-i-getting-warnings-about-my-site-not-having-enough-visitors/
+7137.197 (6) Scheduling a resumption (7) after 301 seconds (1582902193) in case this run gets aborted
+7137.230 (6) This backup run is not intended for files - skipping
+7137.278 (6) Database dump (WordPress DB): Creation was completed already
+7137.289 (6) backup_2020-02-28-1259_chalet_et_caviar_c1896a6ffdc4-db.gz: db: This file has not yet been successfully uploaded: will queue
+7137.290 (6) Saving backup history. Total backup size: 1003.5 KB
+7137.292 (6) Requesting upload of the files that have not yet been successfully uploaded (1)
+7137.294 (6) Cloud backup selection (1/1): dropbox with instance (1/1) (last)
+7137.297 (6) Beginning dispatch of backup to remote (dropbox) (instance identifier s-50f9d22d7e7e2b2410bd400266b51696)
+7137.298 (6) Dropbox: You do not appear to be authenticated with Dropbox (1)
+7137.299 (6) An error condition has occurred for the first time during this job
+7137.300 (6) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+7137.301 (6) Number of backup sets in history: 2; groups (db): 1
+7137.303 (6) Examining (for databases) backup set with group_id=0, nonce=c1896a6ffdc4, datestamp=1582894755 (Feb 28 2020 12:59:15)
+7137.303 (6) This backup set is the backup set just made, so will not be deleted.
+7137.303 (6) Examining (for databases) backup set with group_id=0, nonce=2d3d3e9f951b, datestamp=1582894461 (Feb 28 2020 12:54:21)
+7137.303 (6) This backup set remains non-empty (f=1/d=1); will retain in history
+7137.304 (6) Number of backup sets in history: 2; groups (files): 1
+7137.305 (6) Examining (for files) backup set with nonce=c1896a6ffdc4, datestamp=1582894755 (Feb 28 2020 12:59:15)
+7137.305 (6) This backup set remains non-empty (f=0/d=1); will retain in history
+7137.305 (6) Examining (for files) backup set with nonce=2d3d3e9f951b, datestamp=1582894461 (Feb 28 2020 12:54:21)
+7137.305 (6) This backup set remains non-empty (f=1/d=1); will retain in history
+7137.306 (6) Retain: saving new backup history (sets now: 2) and finishing retain operation
+7137.322 (6) Resume backup (c1896a6ffdc4, 6): finish run
+7137.324 (6) There were errors in the uploads, so the 'resume' event is remaining scheduled
+7137.326 (6) No email will/can be sent - the user has not configured an email address.
+7137.326 (6) La sauvegarde ne s'est pas terminée; une relance de la procédure est prévue
+9377.212 (7) Opened log file at time: Fri, 28 Feb 2020 15:35:32 +0000 on https://p2-bros-jessy.yj.fr
+9377.303 (7) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.22 WP: 5.3.2 PHP: 7.2.26 (litespeed, Linux world-320.fr.planethoster.net 3.10.0-962.3.2.lve1.5.25.10.el7.x86_64 #1 SMP Wed May 29 04:37:40 EDT 2019 x86_64) MySQL: 10.2.30-MariaDB WPLANG: fr_FR Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 13.5M | 16M) multisite: N openssl: OpenSSL 1.0.2t  10 Sep 2019 mcrypt: N LANG:  ZipArchive::addFile: Y
+9377.436 (7) Free space on disk containing Updraft's temporary directory: 254016.5 MB
+9377.479 (7) Backup run: resumption=7, nonce=c1896a6ffdc4, file_nonce=c1896a6ffdc4 begun at=1582894755 (9378s ago), job type=backup
+9377.487 (7) Long time past since expected resumption time: approx expected=1582902193.6, now=1582904132.7, diff=1939.2
+9377.496 (7) [Warning] Votre site est consulté rarement et UpdraftPlus ne peut récupérer les ressources qu'il recherche; veuillez prendre connaissance de cette page: https://updraftplus.com/faqs/why-am-i-getting-warnings-about-my-site-not-having-enough-visitors/
+9377.512 (7) Scheduling a resumption (8) after 301 seconds (1582904434) in case this run gets aborted
+9377.613 (7) This backup run is not intended for files - skipping
+9377.633 (7) Database dump (WordPress DB): Creation was completed already
+9377.729 (7) backup_2020-02-28-1259_chalet_et_caviar_c1896a6ffdc4-db.gz: db: This file has not yet been successfully uploaded: will queue
+9377.730 (7) Saving backup history. Total backup size: 1003.5 KB
+9377.733 (7) Requesting upload of the files that have not yet been successfully uploaded (1)
+9377.735 (7) Cloud backup selection (1/1): dropbox with instance (1/1) (last)
+9377.735 (7) Beginning dispatch of backup to remote (dropbox) (instance identifier s-50f9d22d7e7e2b2410bd400266b51696)
+9377.736 (7) Dropbox: You do not appear to be authenticated with Dropbox (1)
+9377.737 (7) An error condition has occurred for the first time during this job
+9377.739 (7) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+9377.740 (7) Number of backup sets in history: 2; groups (db): 1
+9377.741 (7) Examining (for databases) backup set with group_id=0, nonce=c1896a6ffdc4, datestamp=1582894755 (Feb 28 2020 12:59:15)
+9377.741 (7) This backup set is the backup set just made, so will not be deleted.
+9377.741 (7) Examining (for databases) backup set with group_id=0, nonce=2d3d3e9f951b, datestamp=1582894461 (Feb 28 2020 12:54:21)
+9377.741 (7) This backup set remains non-empty (f=1/d=1); will retain in history
+9377.742 (7) Number of backup sets in history: 2; groups (files): 1
+9377.743 (7) Examining (for files) backup set with nonce=c1896a6ffdc4, datestamp=1582894755 (Feb 28 2020 12:59:15)
+9377.743 (7) This backup set remains non-empty (f=0/d=1); will retain in history
+9377.744 (7) Examining (for files) backup set with nonce=2d3d3e9f951b, datestamp=1582894461 (Feb 28 2020 12:54:21)
+9377.744 (7) This backup set remains non-empty (f=1/d=1); will retain in history
+9377.744 (7) Retain: saving new backup history (sets now: 2) and finishing retain operation
+9377.759 (7) Resume backup (c1896a6ffdc4, 7): finish run
+9377.777 (7) There were errors in the uploads, so the 'resume' event is remaining scheduled
+9377.780 (7) No email will/can be sent - the user has not configured an email address.
+9377.780 (7) La sauvegarde ne s'est pas terminée; une relance de la procédure est prévue

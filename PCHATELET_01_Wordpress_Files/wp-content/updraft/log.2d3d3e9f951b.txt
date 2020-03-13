@@ -1,0 +1,571 @@
+0000.000 (0) Opened log file at time: Fri, 28 Feb 2020 12:54:21 +0000 on https://p2-bros-jessy.yj.fr
+0000.004 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.22 WP: 5.3.2 PHP: 7.2.26 (litespeed, Linux world-320.fr.planethoster.net 3.10.0-962.3.2.lve1.5.25.10.el7.x86_64 #1 SMP Wed May 29 04:37:40 EDT 2019 x86_64) MySQL: 10.2.30-MariaDB WPLANG: fr_FR Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 13.4M | 16M) multisite: N openssl: OpenSSL 1.0.2t  10 Sep 2019 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.131 (0) Free space on disk containing Updraft's temporary directory: 254096.3 MB
+0000.134 (0) Tasks: Backup files: 1 (schedule: monthly) Backup DB:  (schedule: weekly)
+0000.178 (0) Processed schedules. Combining jobs from co-inciding events. Tasks now: Backup files: 1 Backup DB: 1
+0000.195 (0) Semaphore (fd, Jessyoptions) being initialised
+0000.200 (0) Requesting semaphore lock (fd) (apparently not via scheduler)
+0000.202 (0) Set semaphore last lock (fd) time to 2020-02-28 12:54:21
+0000.203 (0) Semaphore lock (fd) complete
+0000.208 (0) Backup run: resumption=0, nonce=2d3d3e9f951b, file_nonce=2d3d3e9f951b begun at=1582894461 (0s ago), job type=backup
+0000.210 (0) Scheduling a resumption (1) after 300 seconds (1582894761) in case this run gets aborted
+0000.258 (0) Checking if we have a zip executable available
+0000.259 (0) Testing: /usr/bin/zip
+0000.268 (0) Output: zip warning: binziptest/test.zip not found or empty
+0000.276 (0) Output: adding: binziptest/subdir1/	(in=0) (out=0) (stored 0%)
+0000.277 (0) Output: adding: binziptest/subdir1/subdir2/	(in=0) (out=0) (stored 0%)
+0000.277 (0) Output: adding: binziptest/subdir1/subdir2/test.html	(in=131) (out=107) (deflated 18%)
+0000.278 (0) Output: total bytes=131, compressed=107 -> 18% savings
+0000.324 (0) Output: adding: binziptest/subdir1/subdir2/test2.html	(in=138) (out=113) (deflated 18%)
+0000.325 (0) Output: total bytes=269, compressed=220 -> 18% savings
+0000.370 (0) Working binary zip found: /usr/bin/zip
+0000.372 (0) Zip engine: found/will use a binary zip: /usr/bin/zip
+0000.373 (0) Creation of backups of directories: beginning
+0000.401 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0027.241 (0) Total entities for the zip file: 642 directories, 3852 files (0 skipped as non-modified), 55 MB
+0027.245 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 2.0 seconds have passed since the last write (0 MB, 1 (1) files added so far); re-opening (prior size: 0 KB)
+0027.290 (0) backup_2020-02-28-1254_chalet_et_caviar_2d3d3e9f951b-plugins.zip.tmp: size is now: 0.10 MB
+0027.294 (0) Zip: backup_2020-02-28-1254_chalet_et_caviar_2d3d3e9f951b-plugins.zip.tmp: 100 files added (on-disk size: 144.4 KB)
+0027.296 (0) Zip: backup_2020-02-28-1254_chalet_et_caviar_2d3d3e9f951b-plugins.zip.tmp: 200 files added (on-disk size: 144.4 KB)
+0027.299 (0) Zip: backup_2020-02-28-1254_chalet_et_caviar_2d3d3e9f951b-plugins.zip.tmp: 300 files added (on-disk size: 144.4 KB)
+0027.301 (0) Zip: backup_2020-02-28-1254_chalet_et_caviar_2d3d3e9f951b-plugins.zip.tmp: 400 files added (on-disk size: 144.4 KB)
+0027.303 (0) Zip: backup_2020-02-28-1254_chalet_et_caviar_2d3d3e9f951b-plugins.zip.tmp: 500 files added (on-disk size: 144.4 KB)
+0027.304 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (2.5 MB, 3852 files batched, 501 (502) added so far); re-opening (prior size: 144.4 KB)
+0031.573 (0) backup_2020-02-28-1254_chalet_et_caviar_2d3d3e9f951b-plugins.zip.tmp: size is now: 1.00 MB
+0031.578 (0) Zip: backup_2020-02-28-1254_chalet_et_caviar_2d3d3e9f951b-plugins.zip.tmp: 600 files added (on-disk size: 1019 KB)
+0031.581 (0) Zip: backup_2020-02-28-1254_chalet_et_caviar_2d3d3e9f951b-plugins.zip.tmp: 700 files added (on-disk size: 1019 KB)
+0031.583 (0) Zip: backup_2020-02-28-1254_chalet_et_caviar_2d3d3e9f951b-plugins.zip.tmp: 800 files added (on-disk size: 1019 KB)
+0031.586 (0) Zip: backup_2020-02-28-1254_chalet_et_caviar_2d3d3e9f951b-plugins.zip.tmp: 900 files added (on-disk size: 1019 KB)
+0031.589 (0) Zip: backup_2020-02-28-1254_chalet_et_caviar_2d3d3e9f951b-plugins.zip.tmp: 1000 files added (on-disk size: 1019 KB)
+0031.589 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (7.5 MB, 3852 files batched, 501 (1003) added so far); re-opening (prior size: 1019 KB)
+0049.311 (0) backup_2020-02-28-1254_chalet_et_caviar_2d3d3e9f951b-plugins.zip.tmp: size is now: 3.30 MB
+0049.317 (0) Zip: backup_2020-02-28-1254_chalet_et_caviar_2d3d3e9f951b-plugins.zip.tmp: 1100 files added (on-disk size: 3343.4 KB)
+0049.323 (0) Zip: backup_2020-02-28-1254_chalet_et_caviar_2d3d3e9f951b-plugins.zip.tmp: 1200 files added (on-disk size: 3343.4 KB)
+0049.327 (0) Zip: backup_2020-02-28-1254_chalet_et_caviar_2d3d3e9f951b-plugins.zip.tmp: 1300 files added (on-disk size: 3343.4 KB)
+0049.331 (0) Zip: backup_2020-02-28-1254_chalet_et_caviar_2d3d3e9f951b-plugins.zip.tmp: 1400 files added (on-disk size: 3343.4 KB)
+0049.336 (0) Zip: backup_2020-02-28-1254_chalet_et_caviar_2d3d3e9f951b-plugins.zip.tmp: 1500 files added (on-disk size: 3343.4 KB)
+0049.337 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (9.4 MB, 3852 files batched, 501 (1504) added so far); re-opening (prior size: 3343.4 KB)
+0065.118 (0) backup_2020-02-28-1254_chalet_et_caviar_2d3d3e9f951b-plugins.zip.tmp: size is now: 7.00 MB
+0065.122 (0) Zip: backup_2020-02-28-1254_chalet_et_caviar_2d3d3e9f951b-plugins.zip.tmp: 1600 files added (on-disk size: 7137.6 KB)
+0065.124 (0) Zip: backup_2020-02-28-1254_chalet_et_caviar_2d3d3e9f951b-plugins.zip.tmp: 1700 files added (on-disk size: 7137.6 KB)
+0065.126 (0) Zip: backup_2020-02-28-1254_chalet_et_caviar_2d3d3e9f951b-plugins.zip.tmp: 1800 files added (on-disk size: 7137.6 KB)
+0065.128 (0) Zip: backup_2020-02-28-1254_chalet_et_caviar_2d3d3e9f951b-plugins.zip.tmp: 1900 files added (on-disk size: 7137.6 KB)
+0065.130 (0) Zip: backup_2020-02-28-1254_chalet_et_caviar_2d3d3e9f951b-plugins.zip.tmp: 2000 files added (on-disk size: 7137.6 KB)
+0065.131 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (7 MB, 3852 files batched, 501 (2005) added so far); re-opening (prior size: 7137.6 KB)
+0081.287 (0) backup_2020-02-28-1254_chalet_et_caviar_2d3d3e9f951b-plugins.zip.tmp: size is now: 9.20 MB
+0081.291 (0) Zip: backup_2020-02-28-1254_chalet_et_caviar_2d3d3e9f951b-plugins.zip.tmp: 2100 files added (on-disk size: 9437.3 KB)
+0081.293 (0) Zip: backup_2020-02-28-1254_chalet_et_caviar_2d3d3e9f951b-plugins.zip.tmp: 2200 files added (on-disk size: 9437.3 KB)
+0081.295 (0) Zip: backup_2020-02-28-1254_chalet_et_caviar_2d3d3e9f951b-plugins.zip.tmp: 2300 files added (on-disk size: 9437.3 KB)
+0081.296 (0) Zip: backup_2020-02-28-1254_chalet_et_caviar_2d3d3e9f951b-plugins.zip.tmp: 2400 files added (on-disk size: 9437.3 KB)
+0081.298 (0) Zip: backup_2020-02-28-1254_chalet_et_caviar_2d3d3e9f951b-plugins.zip.tmp: 2500 files added (on-disk size: 9437.3 KB)
+0081.299 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (5.9 MB, 3852 files batched, 501 (2506) added so far); re-opening (prior size: 9437.3 KB)
+0094.480 (0) backup_2020-02-28-1254_chalet_et_caviar_2d3d3e9f951b-plugins.zip.tmp: size is now: 11.40 MB
+0094.492 (0) Zip: backup_2020-02-28-1254_chalet_et_caviar_2d3d3e9f951b-plugins.zip.tmp: 2600 files added (on-disk size: 11664.2 KB)
+0094.496 (0) Zip: backup_2020-02-28-1254_chalet_et_caviar_2d3d3e9f951b-plugins.zip.tmp: 2700 files added (on-disk size: 11664.2 KB)
+0094.500 (0) Zip: backup_2020-02-28-1254_chalet_et_caviar_2d3d3e9f951b-plugins.zip.tmp: 2800 files added (on-disk size: 11664.2 KB)
+0094.503 (0) Zip: backup_2020-02-28-1254_chalet_et_caviar_2d3d3e9f951b-plugins.zip.tmp: 2900 files added (on-disk size: 11664.2 KB)
+0094.506 (0) Zip: backup_2020-02-28-1254_chalet_et_caviar_2d3d3e9f951b-plugins.zip.tmp: 3000 files added (on-disk size: 11664.2 KB)
+0094.512 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (18 MB, 3852 files batched, 501 (3007) added so far); re-opening (prior size: 11664.2 KB)
+0126.555 (0) backup_2020-02-28-1254_chalet_et_caviar_2d3d3e9f951b-plugins.zip.tmp: size is now: 16.40 MB
+0126.559 (0) Zip: backup_2020-02-28-1254_chalet_et_caviar_2d3d3e9f951b-plugins.zip.tmp: 3100 files added (on-disk size: 16838 KB)
+0126.561 (0) Zip: backup_2020-02-28-1254_chalet_et_caviar_2d3d3e9f951b-plugins.zip.tmp: 3200 files added (on-disk size: 16838 KB)
+0126.563 (0) Zip: backup_2020-02-28-1254_chalet_et_caviar_2d3d3e9f951b-plugins.zip.tmp: 3300 files added (on-disk size: 16838 KB)
+0126.565 (0) Zip: backup_2020-02-28-1254_chalet_et_caviar_2d3d3e9f951b-plugins.zip.tmp: 3400 files added (on-disk size: 16838 KB)
+0126.568 (0) Zip: backup_2020-02-28-1254_chalet_et_caviar_2d3d3e9f951b-plugins.zip.tmp: 3500 files added (on-disk size: 16838 KB)
+0126.568 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (1.8 MB, 3852 files batched, 501 (3508) added so far); re-opening (prior size: 16838 KB)
+0135.801 (0) Zip: backup_2020-02-28-1254_chalet_et_caviar_2d3d3e9f951b-plugins.zip.tmp: 3600 files added (on-disk size: 17572.5 KB)
+0135.878 (0) Zip: backup_2020-02-28-1254_chalet_et_caviar_2d3d3e9f951b-plugins.zip.tmp: 3700 files added (on-disk size: 17572.5 KB)
+0135.882 (0) Zip: backup_2020-02-28-1254_chalet_et_caviar_2d3d3e9f951b-plugins.zip.tmp: 3800 files added (on-disk size: 17572.5 KB)
+0146.300 (0) Created plugins zip (0) - 18475.5 KB in 145.7 s (126.8 KB/s) (sha1: 87d12d5b6e36253892903a7dd8cf7a9e1b54dde4, sha256: 2b5c4f09f206b9dbfffc494fc0fdce9b95659885aa777aea9fa6dab85bd2de65)
+0146.308 (0) Beginning creation of dump of themes (split every: 400 MB)
+0146.490 (0) Total entities for the zip file: 25 directories, 130 files (0 skipped as non-modified), 6.1 MB
+0146.495 (0) Zip: backup_2020-02-28-1254_chalet_et_caviar_2d3d3e9f951b-themes.zip.tmp: 100 files added (on-disk size: 0 KB)
+0148.941 (0) backup_2020-02-28-1254_chalet_et_caviar_2d3d3e9f951b-themes.zip.tmp: size is now: 4.80 MB
+0149.097 (0) Created themes zip (0) - 4951.5 KB in 2.7 s (1852.1 KB/s) (sha1: d2b8abfca7f9dcb93c18a3cadacd4455437a6026, sha256: d0308091008723dd780fa8e683c66f55c0af5d2981c547354b89e477bc6af76f)
+0149.099 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+0149.100 (0) Looking for candidates to backup in: /home/pbrowhza/public_html/wp-content/uploads
+0149.101 (0) finding files: 2020: adding to list (1)
+0149.102 (0) finding files: elementor: adding to list (2)
+0149.102 (0) finding files: .shortpixel-q-1: adding to list (3)
+0149.103 (0) finding files: .htaccess: adding to list (4)
+0149.103 (0) finding files: ShortpixelBackups: adding to list (5)
+0149.104 (0) Beginning creation of dump of uploads (split every: 400 MB)
+0149.460 (0) Total entities for the zip file: 6 directories, 343 files (0 skipped as non-modified), 89.6 MB
+0149.462 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 25 MB added on this batch (27.7 MB, 343 files batched, 36 (36) added so far); re-opening (prior size: 0 KB)
+0209.705 (0) backup_2020-02-28-1254_chalet_et_caviar_2d3d3e9f951b-uploads.zip.tmp: size is now: 27.70 MB
+0209.717 (0) A useful amount of data was added after this amount of zip processing: 61 s (normalised: 55.1 s, rate: 464.5 KB/s)
+0209.719 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 25 MB added on this batch (25.3 MB, 343 files batched, 25 (61) added so far); re-opening (prior size: 28333.7 KB)
+0270.246 (0) backup_2020-02-28-1254_chalet_et_caviar_2d3d3e9f951b-uploads.zip.tmp: size is now: 53.00 MB
+0270.250 (0) The time we have been running (270.2) is approaching the resumption interval (300) - increasing resumption interval to 301
+0270.251 (0) The scheduled resumption is within 45 seconds - will reschedule
+0270.253 (0) Rescheduling resumption 1: moving to 346 seconds from now (1582895077)
+0270.256 (0) To decrease the likelihood of overlaps, increasing resumption interval to: 301 + 45 = 346
+0270.257 (0) A useful amount of data was added after this amount of zip processing: 61.5 s (normalised: 60.7 s, rate: 421.9 KB/s)
+0270.258 (0) Performance is good - will increase the amount of data we attempt to batch (time=61.51993393898, normalised_time=60.672830189808, max_time=270.25690698624, data points known=1, old_max_bytes=26214400, new_max_bytes=70060578)
+0270.260 (0) Zip: backup_2020-02-28-1254_chalet_et_caviar_2d3d3e9f951b-uploads.zip.tmp: 100 files added (on-disk size: 54296 KB)
+0270.262 (0) Zip: backup_2020-02-28-1254_chalet_et_caviar_2d3d3e9f951b-uploads.zip.tmp: 200 files added (on-disk size: 54296 KB)
+0270.266 (0) Zip: backup_2020-02-28-1254_chalet_et_caviar_2d3d3e9f951b-uploads.zip.tmp: 300 files added (on-disk size: 54296 KB)
+0672.109 (1) Opened log file at time: Fri, 28 Feb 2020 13:05:33 +0000 on https://p2-bros-jessy.yj.fr
+0672.120 (1) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.22 WP: 5.3.2 PHP: 7.2.26 (litespeed, Linux world-320.fr.planethoster.net 3.10.0-962.3.2.lve1.5.25.10.el7.x86_64 #1 SMP Wed May 29 04:37:40 EDT 2019 x86_64) MySQL: 10.2.30-MariaDB WPLANG: fr_FR Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 13.5M | 16M) multisite: N openssl: OpenSSL 1.0.2t  10 Sep 2019 mcrypt: N LANG:  ZipArchive::addFile: Y
+0672.242 (1) Free space on disk containing Updraft's temporary directory: 254154.5 MB
+0672.249 (1) Backup run: resumption=1, nonce=2d3d3e9f951b, file_nonce=2d3d3e9f951b begun at=1582894461 (672s ago), job type=backup, previous check-in=294.2s
+0672.251 (1) Scheduling a resumption (2) after 346 seconds (1582895479) in case this run gets aborted
+0672.377 (1) Checking if we have a zip executable available
+0672.385 (1) Zip engine: found/will use a binary zip: /usr/bin/zip
+0672.400 (1) Creation of backups of directories: had begun; will resume
+0672.420 (1) Beginning creation of dump of plugins (split every: 400 MB)
+0672.435 (1) backup_2020-02-28-1254_chalet_et_caviar_2d3d3e9f951b-plugins.zip: this file has already been created (age: 527 s)
+0672.451 (1) Beginning creation of dump of themes (split every: 400 MB)
+0672.452 (1) backup_2020-02-28-1254_chalet_et_caviar_2d3d3e9f951b-themes.zip: this file has already been created (age: 523 s)
+0672.455 (1) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+0672.456 (1) Looking for candidates to backup in: /home/pbrowhza/public_html/wp-content/uploads
+0672.457 (1) finding files: 2020: adding to list (1)
+0672.458 (1) finding files: elementor: adding to list (2)
+0672.458 (1) finding files: .shortpixel-q-1: adding to list (3)
+0672.459 (1) finding files: .htaccess: adding to list (4)
+0672.459 (1) finding files: ShortpixelBackups: adding to list (5)
+0672.460 (1) Beginning creation of dump of uploads (split every: 400 MB)
+0672.461 (1) File exists (/home/pbrowhza/public_html/wp-content/updraft/backup_2020-02-28-1254_chalet_et_caviar_2d3d3e9f951b-uploads.zip.tmp), but was apparently not modified within the last 30 seconds, so we assume that any previous run has now terminated (time_mod=1582894846, time_now=1582895133, diff=287)
+0672.793 (1) backup_2020-02-28-1254_chalet_et_caviar_2d3d3e9f951b-uploads.zip.tmp: Zip file already exists, with 343 files
+0672.805 (1) Total entities for the zip file: 6 directories, 343 files (0 skipped as non-modified), 89.6 MB
+0672.807 (1) Zip: backup_2020-02-28-1254_chalet_et_caviar_2d3d3e9f951b-uploads.zip.tmp: 100 files added (on-disk size: 91824.3 KB)
+0672.809 (1) Zip: backup_2020-02-28-1254_chalet_et_caviar_2d3d3e9f951b-uploads.zip.tmp: 200 files added (on-disk size: 91824.3 KB)
+0672.810 (1) Zip: backup_2020-02-28-1254_chalet_et_caviar_2d3d3e9f951b-uploads.zip.tmp: 300 files added (on-disk size: 91824.3 KB)
+0814.920 (1) PHP event: code E_WARNING: Error while sending QUERY packet. PID=28037 (line 2030, wp-includes/wp-db.php)
+0827.115 (1) Created uploads zip (0) - 91824.3 KB in 154.4 s (594.8 KB/s) (sha1: fbe3e9dade15747ac7d146fe4c02c477328ff81f, sha256: 1bb385e1d0aae659bee4279d4e8a7d75077a187d0e1ef42f8b6ec77cedc29976)
+0827.117 (1) Beginning backup of other directories found in the content directory (index: 0)
+0827.117 (1) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+0827.118 (1) Looking for candidates to backup in: /home/pbrowhza/public_html/wp-content
+0827.118 (1) finding files: index.php: adding to list (1)
+0827.119 (1) finding files: plugins: skipping: this is the plugins directory
+0827.119 (1) finding files: themes: skipping: this is the themes directory
+0827.120 (1) finding files: languages: adding to list (2)
+0827.120 (1) finding files: uploads: skipping: this is the uploads directory
+0827.121 (1) finding files: upgrade: skipping: excluded by options
+0827.121 (1) finding files: wflogs: adding to list (3)
+0827.122 (1) finding files: .htaccess: adding to list (4)
+0827.122 (1) finding files: updraft: skipping: this is the updraft directory
+0827.334 (1) Total entities for the zip file: 4 directories, 104 files (0 skipped as non-modified), 11.4 MB
+0827.342 (1) Zip: backup_2020-02-28-1254_chalet_et_caviar_2d3d3e9f951b-others.zip.tmp: 100 files added (on-disk size: 0 KB)
+0847.065 (1) backup_2020-02-28-1254_chalet_et_caviar_2d3d3e9f951b-others.zip.tmp: size is now: 4.20 MB
+0847.227 (1) Created others zip (0) - 4278.7 KB in 19.9 s (215 KB/s) (sha1: 1e841e05e73f73443eab040d18d98ed25bbcdc74, sha256: 09b096ae8b568006dc47423440ab9f13d3c460c1d667d329e1a9d363bc2ce2ec)
+0847.232 (1) Saving backup status to database (elements: 8)
+0847.236 (1) Resuming creation of database dump (WordPress DB)
+0847.275 (1) Testing potential mysqldump binary: /usr/bin/mysqldump
+0848.498 (1) Output: /*!40103 SET @OLD_TIME_ZONE=@@TIME_ZONE */;\n/*!40103 SET TIME_ZONE='+00:00' */;\n/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;\n/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;\n/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;\n/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;\nDROP TABLE IF EXISTS `Jessyoptions`;\n/*!40101 SET @saved_cs_client     = @@character_set_client */;\n/*!40101 SET character_set_client = utf8 */;\nC (truncated - 1237 bytes total)
+0848.514 (1) Working binary mysqldump found: /usr/bin/mysqldump
+0848.523 (1) Table Jessyoptions: Total expected rows (approximate): 496
+0848.642 (1) Table Jessyoptions: Total rows added: 491 in 0.12 seconds
+0848.645 (1) Table Jessyoptions: finishing file (backup_2020-02-28-1254_chalet_et_caviar_2d3d3e9f951b-db-table-Jessyoptions.table.gz - 162.4 KB)
+0848.648 (1) Table Jessyusers: Total expected rows (approximate): 4
+0848.651 (1) Table Jessyusers: Total rows added: 4 in 0.00 seconds
+0848.652 (1) Table Jessyusers: finishing file (backup_2020-02-28-1254_chalet_et_caviar_2d3d3e9f951b-db-table-Jessyusers.table.gz - 0.8 KB)
+0848.655 (1) Table Jessyusermeta: Total expected rows (approximate): 79
+0848.660 (1) Table Jessyusermeta: Total rows added: 79 in 0.00 seconds
+0848.675 (1) Table Jessyusermeta: finishing file (backup_2020-02-28-1254_chalet_et_caviar_2d3d3e9f951b-db-table-Jessyusermeta.table.gz - 1.7 KB)
+0848.679 (1) Table Jessycommentmeta: Total expected rows (approximate): 0
+0848.681 (1) Table Jessycommentmeta: Total rows added: 0 in 0.00 seconds
+0848.682 (1) Table Jessycommentmeta: finishing file (backup_2020-02-28-1254_chalet_et_caviar_2d3d3e9f951b-db-table-Jessycommentmeta.table.gz - 0.4 KB)
+0848.686 (1) Table Jessycomments: Total expected rows (approximate): 1
+0848.689 (1) Table Jessycomments: Total rows added: 1 in 0.00 seconds
+0848.690 (1) Table Jessycomments: finishing file (backup_2020-02-28-1254_chalet_et_caviar_2d3d3e9f951b-db-table-Jessycomments.table.gz - 0.7 KB)
+0848.695 (1) Table Jessylinks: Total expected rows (approximate): 0
+0848.697 (1) Table Jessylinks: Total rows added: 0 in 0.00 seconds
+0848.698 (1) Table Jessylinks: finishing file (backup_2020-02-28-1254_chalet_et_caviar_2d3d3e9f951b-db-table-Jessylinks.table.gz - 0.4 KB)
+0848.708 (1) Table Jessypostmeta: Total expected rows (approximate): 801
+0848.726 (1) Table Jessypostmeta: Total rows added: 801 in 0.02 seconds
+0848.728 (1) Table Jessypostmeta: finishing file (backup_2020-02-28-1254_chalet_et_caviar_2d3d3e9f951b-db-table-Jessypostmeta.table.gz - 20.1 KB)
+0848.733 (1) Table Jessyposts: Total expected rows (approximate): 455
+0848.783 (1) Table Jessyposts: Total rows added: 455 in 0.05 seconds
+0848.785 (1) Table Jessyposts: finishing file (backup_2020-02-28-1254_chalet_et_caviar_2d3d3e9f951b-db-table-Jessyposts.table.gz - 46.5 KB)
+0848.791 (1) Table Jessyterm_relationships: Total expected rows (approximate): 18
+0848.794 (1) Table Jessyterm_relationships: Total rows added: 18 in 0.00 seconds
+0848.795 (1) Table Jessyterm_relationships: finishing file (backup_2020-02-28-1254_chalet_et_caviar_2d3d3e9f951b-db-table-Jessyterm_relationships.table.gz - 0.4 KB)
+0848.800 (1) Table Jessyterm_taxonomy: Total expected rows (approximate): 7
+0848.804 (1) Table Jessyterm_taxonomy: Total rows added: 7 in 0.00 seconds
+0848.806 (1) Table Jessyterm_taxonomy: finishing file (backup_2020-02-28-1254_chalet_et_caviar_2d3d3e9f951b-db-table-Jessyterm_taxonomy.table.gz - 0.6 KB)
+0848.810 (1) Table Jessytermmeta: Total expected rows (approximate): 0
+0848.813 (1) Table Jessytermmeta: Total rows added: 0 in 0.00 seconds
+0848.814 (1) Table Jessytermmeta: finishing file (backup_2020-02-28-1254_chalet_et_caviar_2d3d3e9f951b-db-table-Jessytermmeta.table.gz - 0.4 KB)
+0848.818 (1) Table Jessyterms: Total expected rows (approximate): 7
+0848.821 (1) Table Jessyterms: Total rows added: 7 in 0.00 seconds
+0848.822 (1) Table Jessyterms: finishing file (backup_2020-02-28-1254_chalet_et_caviar_2d3d3e9f951b-db-table-Jessyterms.table.gz - 0.5 KB)
+0848.827 (1) Table Jessyblc_filters: Total expected rows (approximate): 0
+0848.829 (1) Table Jessyblc_filters: Total rows added: 0 in 0.00 seconds
+0848.830 (1) Table Jessyblc_filters: finishing file (backup_2020-02-28-1254_chalet_et_caviar_2d3d3e9f951b-db-table-Jessyblc_filters.table.gz - 0.3 KB)
+0848.834 (1) Table Jessyblc_instances: Total expected rows (approximate): 10
+0848.837 (1) Table Jessyblc_instances: Total rows added: 10 in 0.00 seconds
+0848.838 (1) Table Jessyblc_instances: finishing file (backup_2020-02-28-1254_chalet_et_caviar_2d3d3e9f951b-db-table-Jessyblc_instances.table.gz - 0.6 KB)
+0848.842 (1) Table Jessyblc_links: Total expected rows (approximate): 10
+0848.846 (1) Table Jessyblc_links: Total rows added: 10 in 0.00 seconds
+0848.847 (1) Table Jessyblc_links: finishing file (backup_2020-02-28-1254_chalet_et_caviar_2d3d3e9f951b-db-table-Jessyblc_links.table.gz - 1.6 KB)
+0848.852 (1) Table Jessyblc_synch: Total expected rows (approximate): 13
+0848.855 (1) Table Jessyblc_synch: Total rows added: 13 in 0.00 seconds
+0848.856 (1) Table Jessyblc_synch: finishing file (backup_2020-02-28-1254_chalet_et_caviar_2d3d3e9f951b-db-table-Jessyblc_synch.table.gz - 0.5 KB)
+0848.860 (1) Table Jessyredirection_404: Total expected rows (approximate): 0
+0848.863 (1) Table Jessyredirection_404: Total rows added: 0 in 0.00 seconds
+0848.863 (1) Table Jessyredirection_404: finishing file (backup_2020-02-28-1254_chalet_et_caviar_2d3d3e9f951b-db-table-Jessyredirection_404.table.gz - 0.4 KB)
+0848.867 (1) Table Jessyredirection_groups: Total expected rows (approximate): 2
+0848.873 (1) Table Jessyredirection_groups: Total rows added: 2 in 0.01 seconds
+0848.874 (1) Table Jessyredirection_groups: finishing file (backup_2020-02-28-1254_chalet_et_caviar_2d3d3e9f951b-db-table-Jessyredirection_groups.table.gz - 0.5 KB)
+0848.878 (1) Table Jessyredirection_items: Total expected rows (approximate): 1
+0848.881 (1) Table Jessyredirection_items: Total rows added: 1 in 0.00 seconds
+0848.882 (1) Table Jessyredirection_items: finishing file (backup_2020-02-28-1254_chalet_et_caviar_2d3d3e9f951b-db-table-Jessyredirection_items.table.gz - 0.7 KB)
+0848.919 (1) Table Jessyredirection_logs: Total expected rows (approximate): 0
+0848.922 (1) Table Jessyredirection_logs: Total rows added: 0 in 0.00 seconds
+0848.923 (1) Table Jessyredirection_logs: finishing file (backup_2020-02-28-1254_chalet_et_caviar_2d3d3e9f951b-db-table-Jessyredirection_logs.table.gz - 0.4 KB)
+0848.928 (1) Table Jessywfblockediplog: Total expected rows (approximate): 87
+0848.944 (1) Table Jessywfblockediplog: Total rows added: 87 in 0.01 seconds
+0848.947 (1) Table Jessywfblockediplog: finishing file (backup_2020-02-28-1254_chalet_et_caviar_2d3d3e9f951b-db-table-Jessywfblockediplog.table.gz - 1.1 KB)
+0848.950 (1) Table Jessywfblocks7: Total expected rows (approximate): 0
+0848.953 (1) Table Jessywfblocks7: Total rows added: 0 in 0.00 seconds
+0848.954 (1) Table Jessywfblocks7: finishing file (backup_2020-02-28-1254_chalet_et_caviar_2d3d3e9f951b-db-table-Jessywfblocks7.table.gz - 0.4 KB)
+0848.959 (1) Table Jessywfconfig: Total expected rows (approximate): 250
+0849.009 (1) Table Jessywfconfig: Total rows added: 250 in 0.04 seconds
+0849.011 (1) Table Jessywfconfig: finishing file (backup_2020-02-28-1254_chalet_et_caviar_2d3d3e9f951b-db-table-Jessywfconfig.table.gz - 370.5 KB)
+0849.018 (1) Table Jessywfcrawlers: Total expected rows (approximate): 14
+0849.045 (1) Table Jessywfcrawlers: Total rows added: 14 in 0.03 seconds
+0849.055 (1) Table Jessywfcrawlers: finishing file (backup_2020-02-28-1254_chalet_et_caviar_2d3d3e9f951b-db-table-Jessywfcrawlers.table.gz - 0.6 KB)
+0849.060 (1) Table Jessywffilechanges: Total expected rows (approximate): 0
+0849.062 (1) Table Jessywffilechanges: Total rows added: 0 in 0.00 seconds
+0849.063 (1) Table Jessywffilechanges: finishing file (backup_2020-02-28-1254_chalet_et_caviar_2d3d3e9f951b-db-table-Jessywffilechanges.table.gz - 0.3 KB)
+0849.087 (1) Table Jessywffilemods: Total expected rows (approximate): 4284
+0849.304 (1) Table Jessywffilemods: Total rows added: 4284 in 0.22 seconds
+0849.306 (1) Table Jessywffilemods: finishing file (backup_2020-02-28-1254_chalet_et_caviar_2d3d3e9f951b-db-table-Jessywffilemods.table.gz - 334.8 KB)
+0849.312 (1) Table Jessywfhits: Total expected rows (approximate): 189
+0849.353 (1) Table Jessywfhits: Total rows added: 189 in 0.01 seconds
+0849.355 (1) Table Jessywfhits: finishing file (backup_2020-02-28-1254_chalet_et_caviar_2d3d3e9f951b-db-table-Jessywfhits.table.gz - 9.3 KB)
+0849.361 (1) Table Jessywfhoover: Total expected rows (approximate): 0
+0849.389 (1) Table Jessywfhoover: Total rows added: 0 in 0.03 seconds
+0849.390 (1) Table Jessywfhoover: finishing file (backup_2020-02-28-1254_chalet_et_caviar_2d3d3e9f951b-db-table-Jessywfhoover.table.gz - 0.3 KB)
+0849.395 (1) Table Jessywfissues: Total expected rows (approximate): 0
+0849.398 (1) Table Jessywfissues: Total rows added: 0 in 0.00 seconds
+0849.398 (1) Table Jessywfissues: finishing file (backup_2020-02-28-1254_chalet_et_caviar_2d3d3e9f951b-db-table-Jessywfissues.table.gz - 0.4 KB)
+0849.405 (1) Table Jessywfknownfilelist: Total expected rows (approximate): 4284
+0849.484 (1) Table Jessywfknownfilelist: Total rows added: 4284 in 0.08 seconds
+0849.486 (1) Table Jessywfknownfilelist: finishing file (backup_2020-02-28-1254_chalet_et_caviar_2d3d3e9f951b-db-table-Jessywfknownfilelist.table.gz - 41 KB)
+0849.492 (1) Table Jessywflivetraffichuman: Total expected rows (approximate): 0
+0849.499 (1) Table Jessywflivetraffichuman: Total rows added: 0 in 0.01 seconds
+0849.500 (1) Table Jessywflivetraffichuman: finishing file (backup_2020-02-28-1254_chalet_et_caviar_2d3d3e9f951b-db-table-Jessywflivetraffichuman.table.gz - 0.3 KB)
+0849.506 (1) Table Jessywflocs: Total expected rows (approximate): 1
+0849.510 (1) Table Jessywflocs: Total rows added: 1 in 0.00 seconds
+0849.512 (1) Table Jessywflocs: finishing file (backup_2020-02-28-1254_chalet_et_caviar_2d3d3e9f951b-db-table-Jessywflocs.table.gz - 0.5 KB)
+0849.520 (1) Table Jessywflogins: Total expected rows (approximate): 88
+0849.526 (1) Table Jessywflogins: Total rows added: 88 in 0.00 seconds
+0849.527 (1) Table Jessywflogins: finishing file (backup_2020-02-28-1254_chalet_et_caviar_2d3d3e9f951b-db-table-Jessywflogins.table.gz - 2.5 KB)
+0849.531 (1) Table Jessywfls_2fa_secrets: Total expected rows (approximate): 0
+0849.540 (1) Table Jessywfls_2fa_secrets: Total rows added: 0 in 0.01 seconds
+0849.541 (1) Table Jessywfls_2fa_secrets: finishing file (backup_2020-02-28-1254_chalet_et_caviar_2d3d3e9f951b-db-table-Jessywfls_2fa_secrets.table.gz - 0.4 KB)
+0849.546 (1) Table Jessywfls_settings: Total expected rows (approximate): 17
+0849.553 (1) Table Jessywfls_settings: Total rows added: 19 in 0.01 seconds
+0849.555 (1) Table Jessywfls_settings: finishing file (backup_2020-02-28-1254_chalet_et_caviar_2d3d3e9f951b-db-table-Jessywfls_settings.table.gz - 0.7 KB)
+0849.562 (1) Table Jessywfnotifications: Total expected rows (approximate): 0
+0849.565 (1) Table Jessywfnotifications: Total rows added: 0 in 0.00 seconds
+0849.566 (1) Table Jessywfnotifications: finishing file (backup_2020-02-28-1254_chalet_et_caviar_2d3d3e9f951b-db-table-Jessywfnotifications.table.gz - 0.3 KB)
+0849.570 (1) Table Jessywfpendingissues: Total expected rows (approximate): 0
+0849.573 (1) Table Jessywfpendingissues: Total rows added: 0 in 0.00 seconds
+0849.575 (1) Table Jessywfpendingissues: finishing file (backup_2020-02-28-1254_chalet_et_caviar_2d3d3e9f951b-db-table-Jessywfpendingissues.table.gz - 0.4 KB)
+0849.582 (1) Table Jessywfreversecache: Total expected rows (approximate): 5
+0849.585 (1) Table Jessywfreversecache: Total rows added: 5 in 0.00 seconds
+0849.586 (1) Table Jessywfreversecache: finishing file (backup_2020-02-28-1254_chalet_et_caviar_2d3d3e9f951b-db-table-Jessywfreversecache.table.gz - 0.5 KB)
+0849.590 (1) Table Jessywfsnipcache: Total expected rows (approximate): 0
+0849.593 (1) Table Jessywfsnipcache: Total rows added: 0 in 0.00 seconds
+0849.594 (1) Table Jessywfsnipcache: finishing file (backup_2020-02-28-1254_chalet_et_caviar_2d3d3e9f951b-db-table-Jessywfsnipcache.table.gz - 0.4 KB)
+0849.604 (1) Table Jessywfstatus: Total expected rows (approximate): 445
+0849.614 (1) Table Jessywfstatus: Total rows added: 445 in 0.01 seconds
+0849.615 (1) Table Jessywfstatus: finishing file (backup_2020-02-28-1254_chalet_et_caviar_2d3d3e9f951b-db-table-Jessywfstatus.table.gz - 7.2 KB)
+0849.623 (1) Table Jessywftrafficrates: Total expected rows (approximate): 0
+0849.626 (1) Table Jessywftrafficrates: Total rows added: 0 in 0.00 seconds
+0849.627 (1) Table Jessywftrafficrates: finishing file (backup_2020-02-28-1254_chalet_et_caviar_2d3d3e9f951b-db-table-Jessywftrafficrates.table.gz - 0.3 KB)
+0849.630 (1) Table Jessyyoast_seo_links: Total expected rows (approximate): 8
+0849.632 (1) Table Jessyyoast_seo_links: Total rows added: 8 in 0.00 seconds
+0849.633 (1) Table Jessyyoast_seo_links: finishing file (backup_2020-02-28-1254_chalet_et_caviar_2d3d3e9f951b-db-table-Jessyyoast_seo_links.table.gz - 0.6 KB)
+0849.640 (1) Table Jessyyoast_seo_meta: Total expected rows (approximate): 13
+0849.644 (1) Table Jessyyoast_seo_meta: Total rows added: 13 in 0.00 seconds
+0849.645 (1) Table Jessyyoast_seo_meta: finishing file (backup_2020-02-28-1254_chalet_et_caviar_2d3d3e9f951b-db-table-Jessyyoast_seo_meta.table.gz - 0.4 KB)
+0849.650 (1) backup_2020-02-28-1254_chalet_et_caviar_2d3d3e9f951b-db-table-Jessyoptions.table.gz (1/43): adding to final database dump
+0849.699 (1) backup_2020-02-28-1254_chalet_et_caviar_2d3d3e9f951b-db-table-Jessyusers.table.gz (2/43): adding to final database dump
+0849.703 (1) backup_2020-02-28-1254_chalet_et_caviar_2d3d3e9f951b-db-table-Jessyusermeta.table.gz (3/43): adding to final database dump
+0849.704 (1) backup_2020-02-28-1254_chalet_et_caviar_2d3d3e9f951b-db-table-Jessycommentmeta.table.gz (4/43): adding to final database dump
+0849.704 (1) backup_2020-02-28-1254_chalet_et_caviar_2d3d3e9f951b-db-table-Jessycomments.table.gz (5/43): adding to final database dump
+0849.705 (1) backup_2020-02-28-1254_chalet_et_caviar_2d3d3e9f951b-db-table-Jessylinks.table.gz (6/43): adding to final database dump
+0849.706 (1) backup_2020-02-28-1254_chalet_et_caviar_2d3d3e9f951b-db-table-Jessypostmeta.table.gz (7/43): adding to final database dump
+0849.711 (1) backup_2020-02-28-1254_chalet_et_caviar_2d3d3e9f951b-db-table-Jessyposts.table.gz (8/43): adding to final database dump
+0849.779 (1) backup_2020-02-28-1254_chalet_et_caviar_2d3d3e9f951b-db-table-Jessyterm_relationships.table.gz (9/43): adding to final database dump
+0849.781 (1) backup_2020-02-28-1254_chalet_et_caviar_2d3d3e9f951b-db-table-Jessyterm_taxonomy.table.gz (10/43): adding to final database dump
+0849.787 (1) backup_2020-02-28-1254_chalet_et_caviar_2d3d3e9f951b-db-table-Jessytermmeta.table.gz (11/43): adding to final database dump
+0849.789 (1) backup_2020-02-28-1254_chalet_et_caviar_2d3d3e9f951b-db-table-Jessyterms.table.gz (12/43): adding to final database dump
+0849.789 (1) backup_2020-02-28-1254_chalet_et_caviar_2d3d3e9f951b-db-table-Jessyblc_filters.table.gz (13/43): adding to final database dump
+0849.790 (1) backup_2020-02-28-1254_chalet_et_caviar_2d3d3e9f951b-db-table-Jessyblc_instances.table.gz (14/43): adding to final database dump
+0849.791 (1) backup_2020-02-28-1254_chalet_et_caviar_2d3d3e9f951b-db-table-Jessyblc_links.table.gz (15/43): adding to final database dump
+0849.792 (1) backup_2020-02-28-1254_chalet_et_caviar_2d3d3e9f951b-db-table-Jessyblc_synch.table.gz (16/43): adding to final database dump
+0849.794 (1) backup_2020-02-28-1254_chalet_et_caviar_2d3d3e9f951b-db-table-Jessyredirection_404.table.gz (17/43): adding to final database dump
+0849.795 (1) backup_2020-02-28-1254_chalet_et_caviar_2d3d3e9f951b-db-table-Jessyredirection_groups.table.gz (18/43): adding to final database dump
+0849.796 (1) backup_2020-02-28-1254_chalet_et_caviar_2d3d3e9f951b-db-table-Jessyredirection_items.table.gz (19/43): adding to final database dump
+0849.797 (1) backup_2020-02-28-1254_chalet_et_caviar_2d3d3e9f951b-db-table-Jessyredirection_logs.table.gz (20/43): adding to final database dump
+0849.798 (1) backup_2020-02-28-1254_chalet_et_caviar_2d3d3e9f951b-db-table-Jessywfblockediplog.table.gz (21/43): adding to final database dump
+0849.799 (1) backup_2020-02-28-1254_chalet_et_caviar_2d3d3e9f951b-db-table-Jessywfblocks7.table.gz (22/43): adding to final database dump
+0849.800 (1) backup_2020-02-28-1254_chalet_et_caviar_2d3d3e9f951b-db-table-Jessywfconfig.table.gz (23/43): adding to final database dump
+0849.837 (1) backup_2020-02-28-1254_chalet_et_caviar_2d3d3e9f951b-db-table-Jessywfcrawlers.table.gz (24/43): adding to final database dump
+0849.839 (1) backup_2020-02-28-1254_chalet_et_caviar_2d3d3e9f951b-db-table-Jessywffilechanges.table.gz (25/43): adding to final database dump
+0849.840 (1) backup_2020-02-28-1254_chalet_et_caviar_2d3d3e9f951b-db-table-Jessywffilemods.table.gz (26/43): adding to final database dump
+0849.978 (1) backup_2020-02-28-1254_chalet_et_caviar_2d3d3e9f951b-db-table-Jessywfhits.table.gz (27/43): adding to final database dump
+0849.981 (1) backup_2020-02-28-1254_chalet_et_caviar_2d3d3e9f951b-db-table-Jessywfhoover.table.gz (28/43): adding to final database dump
+0849.982 (1) backup_2020-02-28-1254_chalet_et_caviar_2d3d3e9f951b-db-table-Jessywfissues.table.gz (29/43): adding to final database dump
+0849.983 (1) backup_2020-02-28-1254_chalet_et_caviar_2d3d3e9f951b-db-table-Jessywfknownfilelist.table.gz (30/43): adding to final database dump
+0850.010 (1) backup_2020-02-28-1254_chalet_et_caviar_2d3d3e9f951b-db-table-Jessywflivetraffichuman.table.gz (31/43): adding to final database dump
+0850.011 (1) backup_2020-02-28-1254_chalet_et_caviar_2d3d3e9f951b-db-table-Jessywflocs.table.gz (32/43): adding to final database dump
+0850.012 (1) backup_2020-02-28-1254_chalet_et_caviar_2d3d3e9f951b-db-table-Jessywflogins.table.gz (33/43): adding to final database dump
+0850.013 (1) backup_2020-02-28-1254_chalet_et_caviar_2d3d3e9f951b-db-table-Jessywfls_2fa_secrets.table.gz (34/43): adding to final database dump
+0850.014 (1) backup_2020-02-28-1254_chalet_et_caviar_2d3d3e9f951b-db-table-Jessywfls_settings.table.gz (35/43): adding to final database dump
+0850.015 (1) backup_2020-02-28-1254_chalet_et_caviar_2d3d3e9f951b-db-table-Jessywfnotifications.table.gz (36/43): adding to final database dump
+0850.017 (1) backup_2020-02-28-1254_chalet_et_caviar_2d3d3e9f951b-db-table-Jessywfpendingissues.table.gz (37/43): adding to final database dump
+0850.018 (1) backup_2020-02-28-1254_chalet_et_caviar_2d3d3e9f951b-db-table-Jessywfreversecache.table.gz (38/43): adding to final database dump
+0850.019 (1) backup_2020-02-28-1254_chalet_et_caviar_2d3d3e9f951b-db-table-Jessywfsnipcache.table.gz (39/43): adding to final database dump
+0850.020 (1) backup_2020-02-28-1254_chalet_et_caviar_2d3d3e9f951b-db-table-Jessywfstatus.table.gz (40/43): adding to final database dump
+0850.023 (1) backup_2020-02-28-1254_chalet_et_caviar_2d3d3e9f951b-db-table-Jessywftrafficrates.table.gz (41/43): adding to final database dump
+0850.024 (1) backup_2020-02-28-1254_chalet_et_caviar_2d3d3e9f951b-db-table-Jessyyoast_seo_links.table.gz (42/43): adding to final database dump
+0850.025 (1) backup_2020-02-28-1254_chalet_et_caviar_2d3d3e9f951b-db-table-Jessyyoast_seo_meta.table.gz (43/43): adding to final database dump
+0850.028 (1) backup_2020-02-28-1254_chalet_et_caviar_2d3d3e9f951b-db.gz: finished writing out complete database file (984 KB)
+0850.085 (1) Total database tables backed up: 43 (backup_2020-02-28-1254_chalet_et_caviar_2d3d3e9f951b-db.gz, size: 1028820, sha1: 16db0a3a823b20bdcbd2a435f174127d60e06b7a, sha256: 483d6b4b4423d011d3d39ab7685bbde217d97dbed1e16f61692700225d9dda5c)
+0850.093 (1) backup_2020-02-28-1254_chalet_et_caviar_2d3d3e9f951b-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0850.095 (1) backup_2020-02-28-1254_chalet_et_caviar_2d3d3e9f951b-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0850.096 (1) backup_2020-02-28-1254_chalet_et_caviar_2d3d3e9f951b-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0850.096 (1) backup_2020-02-28-1254_chalet_et_caviar_2d3d3e9f951b-others.zip: others: This file has not yet been successfully uploaded: will queue
+0850.097 (1) backup_2020-02-28-1254_chalet_et_caviar_2d3d3e9f951b-db.gz: db: This file has not yet been successfully uploaded: will queue
+0850.097 (1) Saving backup history. Total backup size: 117.7 MB
+0850.100 (1) Requesting upload of the files that have not yet been successfully uploaded (5)
+0850.102 (1) Cloud backup selection (1/1): dropbox with instance (1/1) (last)
+0850.102 (1) Beginning dispatch of backup to remote (dropbox) (instance identifier s-50f9d22d7e7e2b2410bd400266b51696)
+0850.103 (1) Dropbox: You do not appear to be authenticated with Dropbox (1)
+0850.104 (1) An error condition has occurred for the first time during this job
+0850.105 (1) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0850.106 (1) Number of backup sets in history: 2; groups (db): 1
+0850.107 (1) Examining (for databases) backup set with group_id=0, nonce=c1896a6ffdc4, datestamp=1582894755 (Feb 28 2020 12:59:15)
+0850.108 (1) This backup set remains non-empty (f=0/d=1); will retain in history
+0850.109 (1) Examining (for databases) backup set with group_id=0, nonce=2d3d3e9f951b, datestamp=1582894461 (Feb 28 2020 12:54:21)
+0850.109 (1) This backup set is the backup set just made, so will not be deleted.
+0850.109 (1) Number of backup sets in history: 2; groups (files): 1
+0850.109 (1) Examining (for files) backup set with nonce=c1896a6ffdc4, datestamp=1582894755 (Feb 28 2020 12:59:15)
+0850.109 (1) This backup set remains non-empty (f=0/d=1); will retain in history
+0850.110 (1) Examining (for files) backup set with nonce=2d3d3e9f951b, datestamp=1582894461 (Feb 28 2020 12:54:21)
+0850.110 (1) This backup set is the backup set just made, so will not be deleted.
+0850.111 (1) This backup set is the backup set just made, so will not be deleted.
+0850.111 (1) This backup set is the backup set just made, so will not be deleted.
+0850.111 (1) This backup set is the backup set just made, so will not be deleted.
+0850.111 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+0850.112 (1) Retain: saving new backup history (sets now: 2) and finishing retain operation
+0850.116 (1) Resume backup (2d3d3e9f951b, 1): finish run
+0850.118 (1) There were errors in the uploads, so the 'resume' event is remaining scheduled
+0850.119 (1) No email will/can be sent - the user has not configured an email address.
+0850.119 (1) La sauvegarde ne s'est pas terminée; une relance de la procédure est prévue
+1018.711 (2) Opened log file at time: Fri, 28 Feb 2020 13:11:19 +0000 on https://p2-bros-jessy.yj.fr
+1018.730 (2) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.22 WP: 5.3.2 PHP: 7.2.26 (litespeed, Linux world-320.fr.planethoster.net 3.10.0-962.3.2.lve1.5.25.10.el7.x86_64 #1 SMP Wed May 29 04:37:40 EDT 2019 x86_64) MySQL: 10.2.30-MariaDB WPLANG: fr_FR Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 13.5M | 16M) multisite: N openssl: OpenSSL 1.0.2t  10 Sep 2019 mcrypt: N LANG:  ZipArchive::addFile: Y
+1018.956 (2) Free space on disk containing Updraft's temporary directory: 254101.7 MB
+1018.959 (2) Backup run: resumption=2, nonce=2d3d3e9f951b, file_nonce=2d3d3e9f951b begun at=1582894461 (1019s ago), job type=backup, previous check-in=177.5s
+1018.960 (2) Scheduling a resumption (3) after 346 seconds (1582895826) in case this run gets aborted
+1019.021 (2) Checking if we have a zip executable available
+1019.022 (2) Zip engine: found/will use a binary zip: /usr/bin/zip
+1019.023 (2) Creation of backups of directories: already finished
+1019.023 (2) Saving backup status to database (elements: 8)
+1019.036 (2) Database dump (WordPress DB): Creation was completed already
+1019.042 (2) backup_2020-02-28-1254_chalet_et_caviar_2d3d3e9f951b-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+1019.042 (2) backup_2020-02-28-1254_chalet_et_caviar_2d3d3e9f951b-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+1019.043 (2) backup_2020-02-28-1254_chalet_et_caviar_2d3d3e9f951b-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+1019.043 (2) backup_2020-02-28-1254_chalet_et_caviar_2d3d3e9f951b-others.zip: others: This file has not yet been successfully uploaded: will queue
+1019.044 (2) backup_2020-02-28-1254_chalet_et_caviar_2d3d3e9f951b-db.gz: db: This file has not yet been successfully uploaded: will queue
+1019.045 (2) Saving backup history. Total backup size: 117.7 MB
+1019.047 (2) Requesting upload of the files that have not yet been successfully uploaded (5)
+1019.049 (2) Cloud backup selection (1/1): dropbox with instance (1/1) (last)
+1019.049 (2) Beginning dispatch of backup to remote (dropbox) (instance identifier s-50f9d22d7e7e2b2410bd400266b51696)
+1019.050 (2) Dropbox: You do not appear to be authenticated with Dropbox (1)
+1019.051 (2) An error condition has occurred for the first time during this job
+1019.052 (2) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+1019.054 (2) Number of backup sets in history: 2; groups (db): 1
+1019.054 (2) Examining (for databases) backup set with group_id=0, nonce=c1896a6ffdc4, datestamp=1582894755 (Feb 28 2020 12:59:15)
+1019.055 (2) This backup set remains non-empty (f=0/d=1); will retain in history
+1019.056 (2) Examining (for databases) backup set with group_id=0, nonce=2d3d3e9f951b, datestamp=1582894461 (Feb 28 2020 12:54:21)
+1019.056 (2) This backup set is the backup set just made, so will not be deleted.
+1019.056 (2) Number of backup sets in history: 2; groups (files): 1
+1019.056 (2) Examining (for files) backup set with nonce=c1896a6ffdc4, datestamp=1582894755 (Feb 28 2020 12:59:15)
+1019.056 (2) This backup set remains non-empty (f=0/d=1); will retain in history
+1019.057 (2) Examining (for files) backup set with nonce=2d3d3e9f951b, datestamp=1582894461 (Feb 28 2020 12:54:21)
+1019.057 (2) This backup set is the backup set just made, so will not be deleted.
+1019.058 (2) This backup set is the backup set just made, so will not be deleted.
+1019.058 (2) This backup set is the backup set just made, so will not be deleted.
+1019.058 (2) This backup set is the backup set just made, so will not be deleted.
+1019.058 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+1019.058 (2) Retain: saving new backup history (sets now: 2) and finishing retain operation
+1019.076 (2) Resume backup (2d3d3e9f951b, 2): finish run
+1019.077 (2) There were errors in the uploads, so the 'resume' event is remaining scheduled
+1019.079 (2) No email will/can be sent - the user has not configured an email address.
+1019.080 (2) La sauvegarde ne s'est pas terminée; une relance de la procédure est prévue
+2935.891 (3) Opened log file at time: Fri, 28 Feb 2020 13:43:17 +0000 on https://p2-bros-jessy.yj.fr
+2935.893 (3) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.22 WP: 5.3.2 PHP: 7.2.26 (litespeed, Linux world-320.fr.planethoster.net 3.10.0-962.3.2.lve1.5.25.10.el7.x86_64 #1 SMP Wed May 29 04:37:40 EDT 2019 x86_64) MySQL: 10.2.30-MariaDB WPLANG: fr_FR Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 13.5M | 16M) multisite: N openssl: OpenSSL 1.0.2t  10 Sep 2019 mcrypt: N LANG:  ZipArchive::addFile: Y
+2936.007 (3) Free space on disk containing Updraft's temporary directory: 254107.1 MB
+2936.009 (3) Backup run: resumption=3, nonce=2d3d3e9f951b, file_nonce=2d3d3e9f951b begun at=1582894461 (2936s ago), job type=backup
+2936.009 (3) Long time past since expected resumption time: approx expected=1582895826, now=1582897397.2, diff=1571.2
+2936.011 (3) [Warning] Votre site est consulté rarement et UpdraftPlus ne peut récupérer les ressources qu'il recherche; veuillez prendre connaissance de cette page: https://updraftplus.com/faqs/why-am-i-getting-warnings-about-my-site-not-having-enough-visitors/
+2936.012 (3) Scheduling a resumption (4) after 346 seconds (1582897743) in case this run gets aborted
+2936.087 (3) Checking if we have a zip executable available
+2936.089 (3) Zip engine: found/will use a binary zip: /usr/bin/zip
+2936.094 (3) Creation of backups of directories: already finished
+2936.096 (3) Saving backup status to database (elements: 8)
+2936.113 (3) Database dump (WordPress DB): Creation was completed already
+2936.122 (3) backup_2020-02-28-1254_chalet_et_caviar_2d3d3e9f951b-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+2936.123 (3) backup_2020-02-28-1254_chalet_et_caviar_2d3d3e9f951b-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+2936.124 (3) backup_2020-02-28-1254_chalet_et_caviar_2d3d3e9f951b-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+2936.125 (3) backup_2020-02-28-1254_chalet_et_caviar_2d3d3e9f951b-others.zip: others: This file has not yet been successfully uploaded: will queue
+2936.125 (3) backup_2020-02-28-1254_chalet_et_caviar_2d3d3e9f951b-db.gz: db: This file has not yet been successfully uploaded: will queue
+2936.126 (3) Saving backup history. Total backup size: 117.7 MB
+2936.129 (3) Requesting upload of the files that have not yet been successfully uploaded (5)
+2936.132 (3) Cloud backup selection (1/1): dropbox with instance (1/1) (last)
+2936.132 (3) Beginning dispatch of backup to remote (dropbox) (instance identifier s-50f9d22d7e7e2b2410bd400266b51696)
+2936.133 (3) Dropbox: You do not appear to be authenticated with Dropbox (1)
+2936.134 (3) An error condition has occurred for the first time during this job
+2936.136 (3) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+2936.137 (3) Number of backup sets in history: 2; groups (db): 1
+2936.138 (3) Examining (for databases) backup set with group_id=0, nonce=c1896a6ffdc4, datestamp=1582894755 (Feb 28 2020 12:59:15)
+2936.139 (3) This backup set remains non-empty (f=0/d=1); will retain in history
+2936.140 (3) Examining (for databases) backup set with group_id=0, nonce=2d3d3e9f951b, datestamp=1582894461 (Feb 28 2020 12:54:21)
+2936.140 (3) This backup set is the backup set just made, so will not be deleted.
+2936.140 (3) Number of backup sets in history: 2; groups (files): 1
+2936.141 (3) Examining (for files) backup set with nonce=c1896a6ffdc4, datestamp=1582894755 (Feb 28 2020 12:59:15)
+2936.141 (3) This backup set remains non-empty (f=0/d=1); will retain in history
+2936.141 (3) Examining (for files) backup set with nonce=2d3d3e9f951b, datestamp=1582894461 (Feb 28 2020 12:54:21)
+2936.141 (3) This backup set is the backup set just made, so will not be deleted.
+2936.142 (3) This backup set is the backup set just made, so will not be deleted.
+2936.142 (3) This backup set is the backup set just made, so will not be deleted.
+2936.142 (3) This backup set is the backup set just made, so will not be deleted.
+2936.142 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+2936.143 (3) Retain: saving new backup history (sets now: 2) and finishing retain operation
+2936.146 (3) Resume backup (2d3d3e9f951b, 3): finish run
+2936.148 (3) There were errors in the uploads, so the 'resume' event is remaining scheduled
+2936.149 (3) No email will/can be sent - the user has not configured an email address.
+2936.150 (3) La sauvegarde ne s'est pas terminée; une relance de la procédure est prévue
+5221.380 (4) Opened log file at time: Fri, 28 Feb 2020 14:21:22 +0000 on https://p2-bros-jessy.yj.fr
+5221.394 (4) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.22 WP: 5.3.2 PHP: 7.2.26 (litespeed, Linux world-320.fr.planethoster.net 3.10.0-962.3.2.lve1.5.25.10.el7.x86_64 #1 SMP Wed May 29 04:37:40 EDT 2019 x86_64) MySQL: 10.2.30-MariaDB WPLANG: fr_FR Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 13.7M | 16M) multisite: N openssl: OpenSSL 1.0.2t  10 Sep 2019 mcrypt: N LANG:  ZipArchive::addFile: Y
+5221.684 (4) Free space on disk containing Updraft's temporary directory: 254132.5 MB
+5221.698 (4) Backup run: resumption=4, nonce=2d3d3e9f951b, file_nonce=2d3d3e9f951b begun at=1582894461 (5221s ago), job type=backup
+5221.715 (4) Long time past since expected resumption time: approx expected=1582897743.2, now=1582899682.6, diff=1939.5
+5221.729 (4) [Warning] Votre site est consulté rarement et UpdraftPlus ne peut récupérer les ressources qu'il recherche; veuillez prendre connaissance de cette page: https://updraftplus.com/faqs/why-am-i-getting-warnings-about-my-site-not-having-enough-visitors/
+5221.732 (4) Scheduling a resumption (5) after 346 seconds (1582900028) in case this run gets aborted
+5221.762 (4) Checking if we have a zip executable available
+5221.785 (4) Zip engine: found/will use a binary zip: /usr/bin/zip
+5221.792 (4) Creation of backups of directories: already finished
+5221.794 (4) Saving backup status to database (elements: 8)
+5221.822 (4) Database dump (WordPress DB): Creation was completed already
+5221.828 (4) backup_2020-02-28-1254_chalet_et_caviar_2d3d3e9f951b-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+5221.854 (4) backup_2020-02-28-1254_chalet_et_caviar_2d3d3e9f951b-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+5221.855 (4) backup_2020-02-28-1254_chalet_et_caviar_2d3d3e9f951b-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+5221.856 (4) backup_2020-02-28-1254_chalet_et_caviar_2d3d3e9f951b-others.zip: others: This file has not yet been successfully uploaded: will queue
+5221.856 (4) backup_2020-02-28-1254_chalet_et_caviar_2d3d3e9f951b-db.gz: db: This file has not yet been successfully uploaded: will queue
+5221.857 (4) Saving backup history. Total backup size: 117.7 MB
+5221.889 (4) Requesting upload of the files that have not yet been successfully uploaded (5)
+5221.900 (4) Cloud backup selection (1/1): dropbox with instance (1/1) (last)
+5221.901 (4) Beginning dispatch of backup to remote (dropbox) (instance identifier s-50f9d22d7e7e2b2410bd400266b51696)
+5221.902 (4) Dropbox: You do not appear to be authenticated with Dropbox (1)
+5221.904 (4) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+5221.906 (4) Number of backup sets in history: 2; groups (db): 1
+5221.908 (4) Examining (for databases) backup set with group_id=0, nonce=c1896a6ffdc4, datestamp=1582894755 (Feb 28 2020 12:59:15)
+5221.908 (4) This backup set remains non-empty (f=0/d=1); will retain in history
+5221.910 (4) Examining (for databases) backup set with group_id=0, nonce=2d3d3e9f951b, datestamp=1582894461 (Feb 28 2020 12:54:21)
+5221.910 (4) This backup set is the backup set just made, so will not be deleted.
+5221.910 (4) Number of backup sets in history: 2; groups (files): 1
+5221.910 (4) Examining (for files) backup set with nonce=c1896a6ffdc4, datestamp=1582894755 (Feb 28 2020 12:59:15)
+5221.910 (4) This backup set remains non-empty (f=0/d=1); will retain in history
+5221.911 (4) Examining (for files) backup set with nonce=2d3d3e9f951b, datestamp=1582894461 (Feb 28 2020 12:54:21)
+5221.911 (4) This backup set is the backup set just made, so will not be deleted.
+5221.912 (4) This backup set is the backup set just made, so will not be deleted.
+5221.912 (4) This backup set is the backup set just made, so will not be deleted.
+5221.912 (4) This backup set is the backup set just made, so will not be deleted.
+5221.912 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+5221.913 (4) Retain: saving new backup history (sets now: 2) and finishing retain operation
+5221.915 (4) Resume backup (2d3d3e9f951b, 4): finish run
+5221.918 (4) There were errors in the uploads, so the 'resume' event is remaining scheduled
+5221.919 (4) No email will/can be sent - the user has not configured an email address.
+5221.920 (4) La sauvegarde ne s'est pas terminée; une relance de la procédure est prévue
+7431.628 (5) Opened log file at time: Fri, 28 Feb 2020 14:58:12 +0000 on http://p2-bros-jessy.yj.fr
+7431.629 (5) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.22 WP: 5.3.2 PHP: 7.2.26 (litespeed, Linux world-320.fr.planethoster.net 3.10.0-962.3.2.lve1.5.25.10.el7.x86_64 #1 SMP Wed May 29 04:37:40 EDT 2019 x86_64) MySQL: 10.2.30-MariaDB WPLANG: fr_FR Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 13.7M | 16M) multisite: N openssl: OpenSSL 1.0.2t  10 Sep 2019 mcrypt: N LANG:  ZipArchive::addFile: Y
+7431.724 (5) Free space on disk containing Updraft's temporary directory: 254037.4 MB
+7431.728 (5) Backup run: resumption=5, nonce=2d3d3e9f951b, file_nonce=2d3d3e9f951b begun at=1582894461 (7431s ago), job type=backup
+7431.729 (5) Long time past since expected resumption time: approx expected=1582900028.6, now=1582901892.9, diff=1864.2
+7431.729 (5) [Warning] Votre site est consulté rarement et UpdraftPlus ne peut récupérer les ressources qu'il recherche; veuillez prendre connaissance de cette page: https://updraftplus.com/faqs/why-am-i-getting-warnings-about-my-site-not-having-enough-visitors/
+7431.731 (5) Scheduling a resumption (6) after 346 seconds (1582902238) in case this run gets aborted
+7431.776 (5) Checking if we have a zip executable available
+7431.777 (5) Zip engine: found/will use a binary zip: /usr/bin/zip
+7431.778 (5) Creation of backups of directories: already finished
+7431.779 (5) Saving backup status to database (elements: 8)
+7431.781 (5) Database dump (WordPress DB): Creation was completed already
+7431.785 (5) backup_2020-02-28-1254_chalet_et_caviar_2d3d3e9f951b-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+7431.786 (5) backup_2020-02-28-1254_chalet_et_caviar_2d3d3e9f951b-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+7431.787 (5) backup_2020-02-28-1254_chalet_et_caviar_2d3d3e9f951b-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+7431.787 (5) backup_2020-02-28-1254_chalet_et_caviar_2d3d3e9f951b-others.zip: others: This file has not yet been successfully uploaded: will queue
+7431.788 (5) backup_2020-02-28-1254_chalet_et_caviar_2d3d3e9f951b-db.gz: db: This file has not yet been successfully uploaded: will queue
+7431.789 (5) Saving backup history. Total backup size: 117.7 MB
+7431.791 (5) Requesting upload of the files that have not yet been successfully uploaded (5)
+7431.793 (5) Cloud backup selection (1/1): dropbox with instance (1/1) (last)
+7431.794 (5) Beginning dispatch of backup to remote (dropbox) (instance identifier s-50f9d22d7e7e2b2410bd400266b51696)
+7431.795 (5) Dropbox: You do not appear to be authenticated with Dropbox (1)
+7431.797 (5) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+7431.798 (5) Number of backup sets in history: 2; groups (db): 1
+7431.799 (5) Examining (for databases) backup set with group_id=0, nonce=c1896a6ffdc4, datestamp=1582894755 (Feb 28 2020 12:59:15)
+7431.799 (5) This backup set remains non-empty (f=0/d=1); will retain in history
+7431.799 (5) Examining (for databases) backup set with group_id=0, nonce=2d3d3e9f951b, datestamp=1582894461 (Feb 28 2020 12:54:21)
+7431.799 (5) This backup set is the backup set just made, so will not be deleted.
+7431.799 (5) Number of backup sets in history: 2; groups (files): 1
+7431.800 (5) Examining (for files) backup set with nonce=c1896a6ffdc4, datestamp=1582894755 (Feb 28 2020 12:59:15)
+7431.800 (5) This backup set remains non-empty (f=0/d=1); will retain in history
+7431.801 (5) Examining (for files) backup set with nonce=2d3d3e9f951b, datestamp=1582894461 (Feb 28 2020 12:54:21)
+7431.801 (5) This backup set is the backup set just made, so will not be deleted.
+7431.801 (5) This backup set is the backup set just made, so will not be deleted.
+7431.801 (5) This backup set is the backup set just made, so will not be deleted.
+7431.802 (5) This backup set is the backup set just made, so will not be deleted.
+7431.802 (5) This backup set remains non-empty (f=1/d=1); will retain in history
+7431.802 (5) Retain: saving new backup history (sets now: 2) and finishing retain operation
+7431.805 (5) Resume backup (2d3d3e9f951b, 5): finish run
+7431.807 (5) There were errors in the uploads, so the 'resume' event is remaining scheduled
+7431.809 (5) No email will/can be sent - the user has not configured an email address.
+7431.809 (5) La sauvegarde ne s'est pas terminée; une relance de la procédure est prévue
+9672.121 (6) Opened log file at time: Fri, 28 Feb 2020 15:35:33 +0000 on https://p2-bros-jessy.yj.fr
+9672.123 (6) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.22 WP: 5.3.2 PHP: 7.2.26 (litespeed, Linux world-320.fr.planethoster.net 3.10.0-962.3.2.lve1.5.25.10.el7.x86_64 #1 SMP Wed May 29 04:37:40 EDT 2019 x86_64) MySQL: 10.2.30-MariaDB WPLANG: fr_FR Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 13.7M | 16M) multisite: N openssl: OpenSSL 1.0.2t  10 Sep 2019 mcrypt: N LANG:  ZipArchive::addFile: Y
+9672.226 (6) Free space on disk containing Updraft's temporary directory: 254016.6 MB
+9672.234 (6) Backup run: resumption=6, nonce=2d3d3e9f951b, file_nonce=2d3d3e9f951b begun at=1582894461 (9672s ago), job type=backup
+9672.235 (6) Long time past since expected resumption time: approx expected=1582902238.9, now=1582904133.4, diff=1894.5
+9672.236 (6) [Warning] Votre site est consulté rarement et UpdraftPlus ne peut récupérer les ressources qu'il recherche; veuillez prendre connaissance de cette page: https://updraftplus.com/faqs/why-am-i-getting-warnings-about-my-site-not-having-enough-visitors/
+9672.238 (6) Scheduling a resumption (7) after 346 seconds (1582904479) in case this run gets aborted
+9672.240 (6) Checking if we have a zip executable available
+9672.241 (6) Zip engine: found/will use a binary zip: /usr/bin/zip
+9672.250 (6) Creation of backups of directories: already finished
+9672.251 (6) Saving backup status to database (elements: 8)
+9672.254 (6) Database dump (WordPress DB): Creation was completed already
+9672.260 (6) backup_2020-02-28-1254_chalet_et_caviar_2d3d3e9f951b-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+9672.261 (6) backup_2020-02-28-1254_chalet_et_caviar_2d3d3e9f951b-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+9672.261 (6) backup_2020-02-28-1254_chalet_et_caviar_2d3d3e9f951b-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+9672.262 (6) backup_2020-02-28-1254_chalet_et_caviar_2d3d3e9f951b-others.zip: others: This file has not yet been successfully uploaded: will queue
+9672.262 (6) backup_2020-02-28-1254_chalet_et_caviar_2d3d3e9f951b-db.gz: db: This file has not yet been successfully uploaded: will queue
+9672.263 (6) Saving backup history. Total backup size: 117.7 MB
+9672.277 (6) Requesting upload of the files that have not yet been successfully uploaded (5)
+9672.285 (6) Cloud backup selection (1/1): dropbox with instance (1/1) (last)
+9672.286 (6) Beginning dispatch of backup to remote (dropbox) (instance identifier s-50f9d22d7e7e2b2410bd400266b51696)
+9672.287 (6) Dropbox: You do not appear to be authenticated with Dropbox (1)
+9672.293 (6) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+9672.313 (6) Number of backup sets in history: 2; groups (db): 1
+9672.329 (6) Examining (for databases) backup set with group_id=0, nonce=c1896a6ffdc4, datestamp=1582894755 (Feb 28 2020 12:59:15)
+9672.329 (6) This backup set remains non-empty (f=0/d=1); will retain in history
+9672.330 (6) Examining (for databases) backup set with group_id=0, nonce=2d3d3e9f951b, datestamp=1582894461 (Feb 28 2020 12:54:21)
+9672.330 (6) This backup set is the backup set just made, so will not be deleted.
+9672.330 (6) Number of backup sets in history: 2; groups (files): 1
+9672.333 (6) Examining (for files) backup set with nonce=c1896a6ffdc4, datestamp=1582894755 (Feb 28 2020 12:59:15)
+9672.333 (6) This backup set remains non-empty (f=0/d=1); will retain in history
+9672.341 (6) Examining (for files) backup set with nonce=2d3d3e9f951b, datestamp=1582894461 (Feb 28 2020 12:54:21)
+9672.341 (6) This backup set is the backup set just made, so will not be deleted.
+9672.342 (6) This backup set is the backup set just made, so will not be deleted.
+9672.342 (6) This backup set is the backup set just made, so will not be deleted.
+9672.342 (6) This backup set is the backup set just made, so will not be deleted.
+9672.342 (6) This backup set remains non-empty (f=1/d=1); will retain in history
+9672.343 (6) Retain: saving new backup history (sets now: 2) and finishing retain operation
+9672.346 (6) Resume backup (2d3d3e9f951b, 6): finish run
+9672.359 (6) There were errors in the uploads, so the 'resume' event is remaining scheduled
+9672.364 (6) No email will/can be sent - the user has not configured an email address.
+9672.365 (6) La sauvegarde ne s'est pas terminée; une relance de la procédure est prévue

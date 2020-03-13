@@ -1,0 +1,483 @@
+# Translation of Themes - Rara Journal in French (France)
+# This file is distributed under the same license as the Themes - Rara Journal package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2020-02-15 13:36:01+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: fr\n"
+"Project-Id-Version: Themes - Rara Journal\n"
+
+#. Description of the theme
+msgid "Rara Journal is a clean and elegant WordPress blog theme. It is perfect for food, storytelling, personal, travel, lifestyle blog, etc.  It is responsive and adopts to various screen sizes, ensuring that your content is perfectly displayed to the visitors using tablets and mobile devices. If you are looking for a clean and professional blog theme that compliments your visuals and also provides you ample space for text, Rara Journal is perfect for you. Along with the clean design the theme comes with advance featured Slider to highlight your posts. Check demo at https://demo.rarathemes.com/rara-journal/, read the documentation at https://docs.rarathemes.com/docs/rara-journal/, and get support at https://rarathemes.com/support-ticket/."
+msgstr "Rara Journal est un thème WordPress de blog propre et élégant. Il est parfait pour les blogs de nourriture, contes, personnel, de voyage, de style de vie, etc. Il est réactif et s’adapte à différentes tailles d’écran, s’assurant que votre contenu est parfaitement affiché aux visiteurs sur tablettes et appareils mobiles. Si vous êtes à la recherche d’un thème de blog propre et professionnel qui complète vos visuels et vous fournit également assezd’espace pour le texte, Rara Journal est parfait pour vous. Avec sa conception propre le thème est livré avec le diaporama avancé mis en avant pour mettre en évidence vos articles. Démonstration sur https://demo.rarathemes.com/rara-journal/, documentation sur https://docs.rarathemes.com/docs/rara-journal/ et obtenez du support sur https://rarathemes.com/support-ticket/."
+
+#. Theme Name of the theme
+msgid "Rara Journal"
+msgstr "Rara Journal"
+
+#: inc/extras.php:355 inc/extras.php:360
+msgid "Email"
+msgstr "Email"
+
+#: inc/extras.php:354 inc/extras.php:358
+msgid "Name"
+msgstr "Nom"
+
+#: header.php:28
+msgid "Skip to content (Press Enter)"
+msgstr "Aller au contenu (Pressez Entrée)"
+
+#: inc/customizer.php:36
+msgid "Important Links"
+msgstr "Liens importants"
+
+#: inc/customizer.php:30
+msgid "<li>More WordPress Themes: %1$sClick here.%2$s</li>"
+msgstr "<li>More WordPress Themes: %1$sClick here.%2$s</li>"
+
+#: inc/customizer.php:29
+msgid "<li>Support ticket: %1$sClick here.%2$s</li>"
+msgstr "<li>Support ticket: %1$sClick here.%2$s</li>"
+
+#: inc/customizer.php:28
+msgid "<li>Theme info: %1$sClick here.%2$s</li>"
+msgstr "<li>Theme info: %1$sClick here.%2$s</li>"
+
+#: inc/customizer.php:27
+msgid "<li>View documentation: %1$sClick here.%2$s</li>"
+msgstr "<li>View documentation: %1$sClick here.%2$s</li>"
+
+#: inc/customizer.php:26
+msgid "<li>View demo: %1$sClick here.%2$s</li>"
+msgstr "<li>View demo: %1$sClick here.%2$s</li>"
+
+#: inc/customizer.php:12
+msgid "Information Links"
+msgstr "Liens d'information"
+
+#. translators: used between list items, there is a space after the comma
+#: inc/template-tags.php:31 inc/template-tags.php:58
+msgid ", "
+msgstr ", "
+
+#: inc/extras.php:330
+msgid "Rara Journal by: "
+msgstr "Rara Journal par :"
+
+#: inc/extras.php:328
+msgid "Y"
+msgstr "Y"
+
+#: inc/extras.php:163
+msgid "<b class=\"fn\"><a href=\"<?php get_the_author(); ?>\">%s</a></b>"
+msgstr "<b class=\"fn\"><a href=\"<?php get_the_author(); ?>\">%s (en %)</a></b>"
+
+#. translators: %s: Name of current post.
+#: template-parts/content.php:50 template-parts/content.php:64
+msgid "Continue reading %s <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Poursuivre la lecture de %s <span class=\"meta-nav\">&rarr;</span>"
+
+#. translators: %s: Name of current post
+#: template-parts/content-page.php:43
+msgid "Edit %s"
+msgstr "Modifier %s"
+
+#: template-parts/content.php:73 template-parts/content-page.php:31
+msgid "Pages:"
+msgstr "Pages :"
+
+#: template-parts/content-none.php:19
+msgid " 404: Page Not Found"
+msgstr "404 : Page Introuvable"
+
+#: inc/widget-social-links.php:118
+msgid "LinkedIn"
+msgstr "LinkedIn"
+
+#: inc/widget-social-links.php:65 inc/widget-social-links.php:123
+msgid "YouTube"
+msgstr "YouTube"
+
+#: inc/widget-social-links.php:63
+msgid "Linkedin"
+msgstr "LinkedIn"
+
+#: inc/widget-social-links.php:61 inc/widget-social-links.php:113
+msgid "Pinterest"
+msgstr "Pinterest"
+
+#: inc/widget-social-links.php:59 inc/widget-social-links.php:108
+msgid "Twitter"
+msgstr "Twitter"
+
+#: inc/widget-social-links.php:57 inc/widget-social-links.php:103
+msgid "Instagram"
+msgstr "Instagram"
+
+#: inc/widget-social-links.php:55 inc/widget-social-links.php:98
+msgid "Facebook"
+msgstr "Facebook"
+
+#: inc/widget-social-links.php:26
+msgid "A Social Links Widget"
+msgstr "Widget pour les liens de réseau social"
+
+#: inc/widget-social-links.php:25
+msgid "RARA: Social Links"
+msgstr "RARA : Liens sociaux"
+
+#: inc/widget-recent-post.php:26
+msgid "A Recent Post Widget"
+msgstr "Un widget d’article récent"
+
+#: inc/widget-recent-post.php:25
+msgid "RARA: Recent Post"
+msgstr "RARA : Article récent"
+
+#: inc/widget-recent-post.php:122 inc/widget-popular-post.php:126
+msgid "Show Post Date"
+msgstr "Afficher la date"
+
+#: inc/widget-recent-post.php:111 inc/widget-popular-post.php:115
+msgid "Number of Posts"
+msgstr "Nombre d’articles"
+
+#: inc/widget-social-links.php:93 inc/widget-recent-post.php:106
+#: inc/widget-popular-post.php:110
+msgid "Title"
+msgstr "Titre"
+
+#: inc/widget-popular-post.php:26
+msgid "A Popular Post Widget"
+msgstr "Un widget d’article populaire"
+
+#: inc/widget-popular-post.php:25
+msgid "RARA: Popular Post"
+msgstr "RARA : Article populaire"
+
+#: inc/widget-recent-post.php:117 inc/widget-popular-post.php:121
+#: inc/widget-featured-post.php:116
+msgid "Show Post Thumbnail"
+msgstr "Afficher les Miniatures des Articles"
+
+#: inc/widget-featured-post.php:110
+msgid "Read More Text"
+msgstr "Texte pour Lire la suite"
+
+#: inc/widget-featured-post.php:100
+msgid "Posts"
+msgstr "Publications"
+
+#: inc/widget-featured-post.php:95 inc/widget-featured-post.php:135
+msgid "Read More"
+msgstr "Lire la Suite"
+
+#: inc/widget-featured-post.php:83
+msgid "&mdash;Choose&mdash;"
+msgstr "&mdash;Choisir&mdash;"
+
+#: inc/widget-featured-post.php:26
+msgid "A Featured Post Widget"
+msgstr "Un widget d’article mis en avant"
+
+#: inc/widget-featured-post.php:25
+msgid "RARA: Featured Post"
+msgstr "RARA : Article mis en avant"
+
+#: inc/template-tags.php:64
+msgid "Edit"
+msgstr "Modifier"
+
+#: inc/template-tags.php:43
+msgid "% Comments"
+msgstr "% commentaires"
+
+#: inc/template-tags.php:43
+msgid "1 Comment"
+msgstr "Un commentaire"
+
+#: inc/template-tags.php:43
+msgid "Leave a comment"
+msgstr "Laisser un commentaire"
+
+#: inc/metabox.php:42
+msgid "Choose Sidebar Template"
+msgstr "Choisissez le modèle de barre"
+
+#: inc/metabox.php:30
+msgid "No Sidebar"
+msgstr "Sans Sidebar"
+
+#: inc/metabox.php:25
+msgid "Right Sidebar(default)"
+msgstr "Barre de droite (défaut)"
+
+#: inc/metabox.php:13
+msgid "Sidebar Layout"
+msgstr "Mise en page de barre"
+
+#: inc/extras.php:375
+msgid "Comment"
+msgstr "Commentaire"
+
+#: inc/extras.php:362
+msgid "Website"
+msgstr "Site web"
+
+#: inc/extras.php:355
+msgid "Email*"
+msgstr "E-mail*"
+
+#: inc/extras.php:354
+msgid "Name*"
+msgstr "Nom*"
+
+#: inc/extras.php:332
+msgid "https://wordpress.org/"
+msgstr "https://fr.wordpress.org/"
+
+#: inc/extras.php:332
+msgid "Powered by: %s"
+msgstr "Propulsé par: %s"
+
+#: inc/extras.php:328
+msgid "Copyright &copy; "
+msgstr "Copyright &copy; "
+
+#. translators: 1: date, 2: time
+#: inc/extras.php:173
+msgid "(Edit)"
+msgstr "(Modifier)"
+
+#: inc/extras.php:166
+msgid "Your comment is awaiting moderation."
+msgstr "Votre commentaire est en attente de modération."
+
+#: inc/extras.php:122
+msgid "%s Results Found"
+msgstr "%s résultat trouvé"
+
+#: inc/extras.php:120
+msgid "Search Results"
+msgstr "Résultats de recherche"
+
+#: inc/extras.php:102
+msgid "Archive"
+msgstr "Archiver"
+
+#: inc/extras.php:93
+msgid "Author"
+msgstr "Auteur"
+
+#: inc/extras.php:84
+msgid "Tag"
+msgstr "Étiquette"
+
+#: inc/extras.php:75
+msgid "Category"
+msgstr "Catégorie"
+
+#: inc/customizer.php:494
+msgid "Posts Read More Button"
+msgstr "Bouton Lire la suite des articles"
+
+#: inc/customizer.php:486 template-parts/content.php:9
+msgid "Continue Reading"
+msgstr "Continuer la lecture"
+
+#: inc/customizer.php:477
+msgid "Post Settings"
+msgstr "Réglages de la publication"
+
+#: inc/customizer.php:466
+msgid "Instagram Url"
+msgstr "Instagram Url"
+
+#: inc/customizer.php:448
+msgid "Pinterest Url"
+msgstr "Pinterest Url"
+
+#: inc/customizer.php:430
+msgid "Youtube Url"
+msgstr "Youtube Url"
+
+#: inc/customizer.php:412
+msgid "Google Plus Url"
+msgstr "Google Plus Url"
+
+#: inc/customizer.php:394
+msgid "Rss Feed Url"
+msgstr "Rss Feed Url"
+
+#: inc/customizer.php:376
+msgid "Linkedin Page Url"
+msgstr "Linkedin Page Url"
+
+#: inc/customizer.php:358
+msgid "Twitter Page Url"
+msgstr "URL de page Twitter"
+
+#: inc/customizer.php:340
+msgid "Facebook Page Url"
+msgstr "Url de la Page Facebook"
+
+#: inc/customizer.php:322
+msgid "Enable Social Links"
+msgstr "Activer les liens sociaux"
+
+#: inc/customizer.php:304
+msgid "Leave blank if you do not want to show the social link."
+msgstr "Laissez vide si vous ne voulez pas afficher de lien social."
+
+#: inc/customizer.php:303
+msgid "Social Settings"
+msgstr "Réglages sociaux"
+
+#: inc/customizer.php:291
+msgid "Choose Slider Category"
+msgstr "Choisissez la catégorie de diaporama"
+
+#: inc/customizer.php:273
+msgid "Animation Speed"
+msgstr "Vitesse d’animation"
+
+#: inc/customizer.php:255
+msgid "Slider Speed"
+msgstr "Vitesse du Slider"
+
+#: inc/customizer.php:238
+msgid "Slide"
+msgstr "Glissement"
+
+#: inc/customizer.php:237
+msgid "Fade"
+msgstr "Fondu"
+
+#: inc/customizer.php:233
+msgid "Choose Slider Animation"
+msgstr "Choisissez l’animation de diaporama"
+
+#: inc/customizer.php:215
+msgid "Enable Slider Caption"
+msgstr "Activer la légende de diaporama"
+
+#: inc/customizer.php:197
+msgid "Enable Slider Pager"
+msgstr "Activer le diaporama de page d'accueil"
+
+#: inc/customizer.php:179
+msgid "Enable Slider Loop"
+msgstr "Activer la boucle de diaporama"
+
+#: inc/customizer.php:161
+msgid "Enable Slider Auto Transition"
+msgstr "Activer la transition automatique du diaporama"
+
+#: inc/customizer.php:143
+msgid "Enable Home Page Slider"
+msgstr "Activer le diaporama de page d’accueil"
+
+#: inc/customizer.php:125
+msgid "Slider Settings"
+msgstr "Paramètres du diaporama"
+
+#: inc/customizer.php:105
+msgid "Default section provided by WordPress customizer."
+msgstr "Section par défaut fournie par la personnalisation de WordPress"
+
+#: inc/customizer.php:104
+msgid "Default Settings"
+msgstr "Réglages par défaut"
+
+#: inc/customizer.php:92
+msgid "Choose Category"
+msgstr "Choisissez une catégorie"
+
+#: inc/customizer.php:76
+msgid "Choose Post"
+msgstr "Choisissez les Articles"
+
+#: functions.php:184
+msgid "Footer Four"
+msgstr "Pied 4"
+
+#: functions.php:174
+msgid "Footer Three"
+msgstr "Pied 3"
+
+#: functions.php:164
+msgid "Footer Two"
+msgstr "Pied 2"
+
+#: functions.php:154
+msgid "Footer One"
+msgstr "Pied 1"
+
+#: functions.php:144
+msgid "Right Sidebar"
+msgstr "Barre de droite"
+
+#: functions.php:49
+msgid "Secondary"
+msgstr "Secondaire"
+
+#: functions.php:48
+msgid "Primary"
+msgstr "Primaire"
+
+#: comments.php:58
+msgid "Comments are closed."
+msgstr "Les commentaires sont fermés."
+
+#: comments.php:45
+msgid "Newer Comments"
+msgstr "Commentaires plus récents"
+
+#: comments.php:44
+msgid "Older Comments"
+msgstr "Commentaires plus anciens"
+
+#: comments.php:41
+msgid "Comment navigation"
+msgstr "Navigation dans les commentaires"
+
+#: comments.php:26
+msgid "Comments"
+msgstr "Commentaires"
+
+#: 404.php:32 template-parts/content-none.php:32
+msgid "Home"
+msgstr "Accueil"
+
+#: 404.php:32 template-parts/content-none.php:32
+msgid "The page you were looking for cannot be found, it may have been moved or no longer exists. The search below may help you find the desired page, or you can navigate back to the homepage by clicking&nbsp;"
+msgstr "La page que vous recherchiez ne peut pas être trouvée, elle peut avoir été déplacée ou n’existe plus. La recherche ci-dessous peut vous aider à trouver la page désirée, ou vous pouvez naviguer vers la page d’accueil en cliquant sur "
+
+#: 404.php:28 template-parts/content-none.php:29
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr "Désolé, mais rien ne correspond à votre recherche. Veuillez réessayer avec une recherche différente."
+
+#: 404.php:25 template-parts/content-none.php:26
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr "Prêt·e à publier votre premier article ? <a href=\"%1$s\">Lancez-vous ici</a>."
+
+#: 404.php:20
+msgid "404: Page Not Found"
+msgstr "404 : Page Introuvable"
+
+#. Author URI of the theme
+msgid "https://rarathemes.com/"
+msgstr "https://rarathemes.com/"
+
+#. Author of the theme
+#: inc/extras.php:331
+msgid "Rara Theme"
+msgstr "Rara Theme"
+
+#. Theme URI of the theme
+msgid "https://rarathemes.com/wordpress-themes/rara-journal/"
+msgstr "https://rarathemes.com/wordpress-themes/rara-journal/"

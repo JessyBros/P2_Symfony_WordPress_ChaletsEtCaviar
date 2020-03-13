@@ -1,0 +1,146 @@
+# Translation of Themes - Kalon Chic in French (France)
+# This file is distributed under the same license as the Themes - Kalon Chic package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2020-02-13 09:51:50+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: fr\n"
+"Project-Id-Version: Themes - Kalon Chic\n"
+
+#. Description of the theme
+msgid "Kalon Chic is a child theme of Kalon free WordPress theme. Kalon Chic is a fully responsive feminine focused theme which ensures that your content looks perfect on every screen size & devices. With this theme, you can create a blog & share your expert opinions  on various topics like fashion, makeup, lifestyle, food, travel, parenting, beauty or any other creative topic. This theme features an attractive layout which helps you increase visitors engagement on your blog. Furthermore, it is developed implementing SEO friendly codes and is Schema.org markup ready, which helps your site rank high in search engine results. Also, it is optimized for performance to provide a smooth user experience to your visitors while browsing your website. The beautiful Instagram section of this theme can be used to showcase images from your Instagram account and increase your followers. Also, the well placed Newsletter section will help you to grow your email list and keep in touch with your visitors. The theme is translation ready, supports RTL and has a widget ready design. In addition, Kalon Chic is backed by world-class, one-on-one support, and a super active team of developers and designers ready to help! Demo at: https://demo.rarathemes.com/kalon-chic/, Documentation at https://docs.rarathemes.com/docs/kalon-chic/ and Support at https://rarathemes.com/support-forum/."
+msgstr "Kalon Chic est un thème enfant du thème WordPress gratuit Kalon. Kalon Chic est un thème entièrement réactif axé sur le féminin qui garantit que votre contenu est parfait sur toutes les tailles d’écran et les appareils. Avec ce thème, vous pouvez créer un blog - partager vos opinions d’experts sur divers sujets comme la mode, le maquillage, le mode de vie, la nourriture, le voyage, la parentalité, la beauté ou tout autre sujet créatif. Ce thème dispose d’une mise en page attrayante qui vous aide à augmenter l’engagement des visiteurs sur votre blog. En outre, il est développé en mettant en œuvre du code optimisé pour le SEO et est prêt pour le balisage Schema.org, ce qui aide votre site à avoir un classement élevé dans les résultats des moteurs de recherche. En outre, il est optimisé pour les performances pour fournir une expérience utilisateur en douceur à vos visiteurs qui naviguent sur votre site web. La belle section Instagram de ce thème peut être utilisée pour présenter des images de votre compte Instagram et augmenter vos abonnés. De plus, la section de newsletter bien placée vous aidera à faire fructifier votre liste d’e-mails et à rester en contact avec vos visiteurs. Le thème est prêt pour la traduction, prend en charge le RTL et a un widget prêt pour le design. En outre, Kalon Chic est soutenu par un support de classe mondiale, en tête-à-tête, et une équipe super active de développeurs et de designers prêts à vous aider ! Démonstration sur : https://demo.rarathemes.com/kalon-chic/, Documentation sur https://docs.rarathemes.com/docs/kalon-chic/ et support sur https://rarathemes.com/support-forum/."
+
+#. Theme Name of the theme
+msgid "Kalon Chic"
+msgstr "Kalon Chic"
+
+#: index.php:51
+msgid "Page"
+msgstr "Page"
+
+#: index.php:50
+msgid "Next"
+msgstr "Suivant"
+
+#: index.php:49
+msgid "Previous"
+msgstr "Précédent"
+
+#: template-parts/content.php:68
+msgid "Continue Reading"
+msgstr "Continuer la lecture"
+
+#: template-parts/content.php:58
+msgid "Pages:"
+msgstr "Pages :"
+
+#. translators: %s: Name of current post.
+#: template-parts/content.php:46
+msgid "Continue reading %s <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Poursuivre la lecture de %s <span class=\"meta-nav\">&rarr;</span>"
+
+#: functions.php:296
+msgid "Enter Blossom Email Newsletter Shortcode"
+msgstr "Saisissez le code court de Blossom Email Newsletter"
+
+#: functions.php:295
+msgid "Blossom Email Newsletter"
+msgstr "Blossom Email Newsletter"
+
+#: functions.php:277
+msgid " You can make Newsletter in the Homepage by using %1$sBlossomThemes Email Newsletter%2$s"
+msgstr "Vous pouvez faire une newsletter dans la page d’accueil en utilisant %1$sBlossomThemes Email Newsletter%%2$s"
+
+#: functions.php:276
+msgid "Enable Blossom Email Newsletter"
+msgstr "Activer Blossom Email Newsletter"
+
+#: functions.php:259
+msgid "Newsletter Settings"
+msgstr "Réglages de newsletter"
+
+#: functions.php:248
+msgid " You can make Instagram Grid using %1$sBlossomThemes Instagram Feed%2$s"
+msgstr "Vous pouvez faire une grille Instagram en utilisant %1$sBlossomThemes Instagram Feed%2$s"
+
+#: functions.php:247
+msgid "Enable Blossom Instagram"
+msgstr "Activer Blossom Instagram"
+
+#: functions.php:229
+msgid "Instagram Settings"
+msgstr "Réglages Instagram"
+
+#: functions.php:220
+msgid "Primary Color"
+msgstr "Couleur primaire"
+
+#: functions.php:96
+msgid "About Kalon"
+msgstr "À propos de Kalon"
+
+#: functions.php:92
+msgid "More Details"
+msgstr "Plus de détails"
+
+#: functions.php:91
+msgid "Support ticket"
+msgstr "Ticket de support"
+
+#: functions.php:90
+msgid "View documentation"
+msgstr "Voir la documentation"
+
+#: functions.php:89 functions.php:90 functions.php:91 functions.php:92
+msgid "here"
+msgstr "ici"
+
+#: functions.php:89
+msgid "View demo"
+msgstr "Voir la démo"
+
+#: functions.php:88
+msgid "Need help?"
+msgstr "Besoin d’aide ?"
+
+#: functions.php:78
+msgid "Information Links"
+msgstr "Liens d'information"
+
+#: functions.php:65
+msgid "https://wordpress.org/"
+msgstr "https://fr.wordpress.org/"
+
+#: functions.php:65
+msgid "Powered by: %s"
+msgstr "Propulsé par : %s"
+
+#: functions.php:63
+msgid "Kalon Chic by : "
+msgstr "Kalon Chic par :"
+
+#: functions.php:60
+msgid "Y"
+msgstr "Y"
+
+#: functions.php:60
+msgid "Copyright &copy; "
+msgstr "Copyright &copy; "
+
+#. Author URI of the theme
+msgid "https://rarathemes.com/"
+msgstr "https://rarathemes.com/"
+
+#. Author of the theme
+#: functions.php:64
+msgid "Rara Theme"
+msgstr "Rara Theme"
+
+#. Theme URI of the theme
+msgid "https://rarathemes.com/wordpress-themes/kalon-chic/"
+msgstr "https://rarathemes.com/wordpress-themes/kalon-chic/"
