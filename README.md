@@ -3,3 +3,5 @@ Création d'un site wordpress pour une compagnie de luxe qui souhaite vendre ou 
 
 ## OBJECTIF 
 <https://openclassrooms.com/fr/paths/59/projects/39/assignment>
+
+![GitHub Logo](/apercu_projet.jpg)
